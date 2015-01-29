@@ -1,9 +1,10 @@
 # Server Requirements
 
-Below are the server requirements for running NitroCMS 2.x. If you aren't sure if you have all of these, NitroCMS will check for them on installation for you.
+Below are the server requirements for running NitroCMS 1.x. If you aren't sure if you have all of these, NitroCMS will check for them on installation for you.
 
-</div>
+
 <div class="doc_content">
+</div>
 
 ### a HTTP web-server of some description
 
@@ -13,9 +14,10 @@ Apache 2.x, Abyss Web Server, Uniform Server, Zend Community Server, etc. So far
 
 There are plans for other database systems, but for now the newer MySQL version the better.
 
-### PHP 5.2.x or higher
+### PHP 5.4.x or higher
 
-PHP 5.2 and PHP 5.3 are both fully supported.
+PHP 5.2 and PHP 5.3 are no longer supported by NitroCMS.
+
 
 ### GD 2
 

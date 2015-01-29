@@ -419,3 +419,45 @@ The following attributes can be used to customize your form. None of these attri
 
 If there is an "email" field in the form, it will be used for the reply-to address. Your form should have a
 reply-to address set or else contain an "email" field in the form.
+
+
+# The New Contact Plugin
+
+The new plugin was implemented to give further control to the designer. It allows the designer to specify where the validation messages are to be displayed.
+
+    {{noparse}}
+	{{ contact:fields
+		    name = "text|required|placeholder=Name"
+		    email = "text|required|valid_email|placeholder=Email"
+		    subject = "text|required|placeholder=Subject"
+		    message = "textarea|required|placeholder=Message"
+		    button = "send"
+		    template = "contact"
+		    lang="en"
+		    sent=page:success_send
+		    error=page:error_send
+		    success-redirect=page:slug
+		    show_button='no'
+		}}
+
+            {{form_start}}
+
+                {{hidden_required}}
+
+                {{forms}}
+                    <div class="form-group">
+                        {{if has_error == yes}}
+                            <span class='error' style='color:#f00'>{{field_error}}</span>
+                        {{endif}}
+
+                        {{form}}
+                    </div>
+                {{/forms}}
+
+                {{send_button}}
+
+            {{form_end}}
+
+	{{/contact:fields}}
+
+    {{/noparse}}
