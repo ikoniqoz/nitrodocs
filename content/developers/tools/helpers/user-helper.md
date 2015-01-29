@@ -10,6 +10,10 @@ A collection of helper functions included with the Users module.
 Checks if the user is logged in. Returns bool.
 
 
+
+
+
+
 ### group\_has\_role($module, $role)
 
 Checks if the current users group has a specific role. Returns bool.
@@ -112,3 +116,20 @@ Return a users display name based on settings.
 		</tr>
 	</tbody>
 </table>
+
+
+
+### admin\_has\_access($module)
+
+Checks if the user has admin access, to this module.
+In NitroCMS there are 2 admin users and Site-admins do not have the full access rights as 'admins' 
+
+If the passed in value is settings or addons and the user is a site-admin, the result will be false. However the site-admin may still have access if they are directly allocated access rights. This does not check whether the user has access, but rather if they have admin access.
+
+
+Becuase of the ambiguity of this function, it has been marked deprecated without a definate date.
+
+Use:
+
+	bool: admin_has_access('pages')
+

@@ -29,6 +29,3 @@ Next, click <samp>Save</samp>, and you'll be taken back to your page tree, with 
 
 Click the link next to <samp>Slug:</samp> and you'll see how our new about page looks on your site. Pretty simple! However, there's a lot more we can do with the page tree.
 
-<hr>
-
-<a href="getting-started/creating-a-page-type">Next: Creating a Page Type</a>

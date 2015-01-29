@@ -205,6 +205,12 @@ class Fizl extends CI_Controller {
 			$template = read_file($template_path.'default.html');
 		
 		endif;
+
+
+		if($this->input->get('ajaxview'))
+		{
+			$template = read_file($template_path.'ajax.html');
+		}
 		
 		// -------------------------------------
 		// Get Content	

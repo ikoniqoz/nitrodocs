@@ -106,6 +106,10 @@
   {{ nav:auto start="reference" }}
 {{ endif }}
 
+<p><strong>{{ link uri="about" title="About" }}</strong></p>
+{{ if segment_1 == 'about'}}
+  {{ nav:auto start="about" }}
+{{ endif }}
 </div><!--#menu-->
 
 <div id="content">

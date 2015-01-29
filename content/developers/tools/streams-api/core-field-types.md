@@ -331,16 +331,25 @@ The file field type allows you store an Integer value.
 <table>
 	<tr>
 		<th width="30%">Parameter</th>
+		<th>Default Value</th>
 		<th>Description</th>
 	</tr>
 	<tr>
 		<td>max_length</td>
+		<td></td>
 		<td>Maximum characters of the integer.</td>
 	</tr>
-        <tr>
+    <tr>
 		<td>default_value</td>
+		<td></td>
 		<td>Specify the value that will be used if none is provide.</td>
 	</tr>
+    <tr>
+		<td>readonly</td>
+		<td>false</td>
+		<td>Is this value editable in <dfn>ADMIN</dfn> mode.</td>
+	</tr>
+
 </table>
 
 ## Pyro Lang

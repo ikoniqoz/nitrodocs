@@ -49,3 +49,20 @@ Get a Gravatar image based on the passed in params.
 		</tr>
 	</tbody>
 </table>
+
+
+		gravatar('me@email.com', 50, 'g', false, false);
+		
+
+### gravatar_alt($email = '', $options=[])
+
+Get a Gravatar Alternative method that has all options pre-defined and you only passin the values you want.
+
+		$options = 
+		[
+			'size' => '200',
+			'rating' => 'g'
+		];
+
+		gravatar_alt($email, $options);
+

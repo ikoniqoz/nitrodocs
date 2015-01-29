@@ -1,10 +1,14 @@
+boolean
 choice
 country
+decimal
 datetime | DateTime
 email
 encrypt
 file
+global_regions | Global Regions
 image
+integer
 keywords
 relationship
 slug

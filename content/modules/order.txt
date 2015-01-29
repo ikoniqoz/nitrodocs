@@ -2,6 +2,7 @@ blog
 email-templates
 files
 navigation
+nitrocart | NitroCart (e-commerce)
 pages
 session
 settings

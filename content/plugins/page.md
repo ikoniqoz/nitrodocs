@@ -1,4 +1,4 @@
-# Current Page Plugin
+# Page : Current Page Plugin
 
 The _current page_ plugin allows you to access information about the current page. This is different from the _pages_ plugin which allows you to access information about pages in general.
 

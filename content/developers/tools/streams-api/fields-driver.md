@@ -7,6 +7,21 @@ You can call the fields driver like this:
 	$this->load->driver('Streams');
 	$this->streams->fields->function();
 
+* <a href='#'>add_field(..,..)</a>
+* <a href='#'>add_fields(..,..)</a>
+* <a href='#'>assign_field(..,..)</a>
+* <a href='#'>get\_namespace\_fields(..,..)</a>
+* <a href='#'>get\_field\_assignments(..,..)</a>
+* <a href='#'>deassign_field(..,..)</a>
+* <a href='#'>delete_field(..,..)</a>
+* <a href='#'>get\_field\_assignments(..,..)</a>
+* <a href='#'>get\_namespace\_fields(..,..)</a>
+
+
+
+
+
+
 The following functions are available in the Streams API fields driver:
 
 ## add\_field(<var>$field</var>)
@@ -117,6 +132,7 @@ Assigns a field to a stream. These must both be in the same namespace. The last 
 	
 <div class="tip"><strong>Note:</strong> If you use the assign option when adding a field, you do not need to assign it again using this function.</div>
 
+
 ## deassign\_field(<var>$namespace, $stream\_slug, $field\_slug</var>)
 
 Deassigns a field from a stream. This will not only remove the assignment, but also the actual column from the stream table, so all data for the field in the stream will be lost.
@@ -132,7 +148,8 @@ Deletes a field and all field assignments for the field.
 ### Example:
 
 	$this->streams->fields->delete_field('question', 'faq');
-	
+
+
 ## get\_field\_assignments(<var>$field\_slug, $namespace</var>)
 
 Get the assignments for a given field.
@@ -168,3 +185,13 @@ Returns:
 	        )
 	
 	)
+
+
+
+# get\_namespace\_fields($namespace)
+
+## get\_namespace\_fields($namespace, $pagination = null, $pagination_uri = null, $extra = array(), $skips = array())
+
+Retrieves all the fields in a namespace. This was added by NitroCMS after the original PyroCMS 2.2.5 release.
+
+	get_namespace_fields($namespace, $pagination = null, $pagination_uri = null, $extra = array(), $skips = array())

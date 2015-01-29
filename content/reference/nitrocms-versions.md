@@ -6,11 +6,8 @@ NitroCMS is in constant active development, so it helps to know a little bit abo
 
 The download button on the [home page](http://www.pyrocms.com) will always download the latest stable version. The latest stable release is the last version that the NitroCMS community has tested and stamped out as many bugs as possible in.
 
-## Branches
 
-All development for NitroCMS is done on the NitroCMS [GitHub Page](https://github.com/pyrocms/pyrocms). Git allows for different versions of software to exist via branches, and NitroCMS uses branches to create development versions that you can download and use if you'd like to test out new features.
 
-If you would like to test out features that are being developed for the next release of NitroCMS, fork the [NitroCMS GitHub repo](https://github.com/pyrocms/pyrocms) following the [instructions on GitHub](https://help.github.com/articles/fork-a-repo) and pull down the latest changes from the current development branch. Branches are designated by their release, so for instance, NitroCMS 2.1-2.1.5 were developed on the NitroCMS 2.1/develop branch, while 2.2 is being developed on the 2.2/develop branch.
 
 ## Release Types
 
