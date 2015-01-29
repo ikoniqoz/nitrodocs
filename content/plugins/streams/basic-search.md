@@ -166,4 +166,4 @@ The streams plugin search form allows you to set up some of the basic bits of in
 
 ## The Results Page URI
 
-Your results page should have room in the URI for the cache segment and pagination offset (if necessary). To accomplish this, you should create a page with strict URI matching turned off, so PyroCMS will ignore the segment where the cache key segment is placed.
+Your results page should have room in the URI for the cache segment and pagination offset (if necessary). To accomplish this, you should create a page with strict URI matching turned off, so NitroCMS will ignore the segment where the cache key segment is placed.

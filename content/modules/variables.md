@@ -1,6 +1,6 @@
 # Variables
 
-The _variables_ module you to create variables that are accessible throughout your PyroCMS code. They are a good way to set small bits of text that you or other admins may want to change later. For instance, you can create a variable for the site's official Twitter handle. If it ever changes, it can be easily changable via the variables module. 
+The _variables_ module you to create variables that are accessible throughout your NitroCMS code. They are a good way to set small bits of text that you or other admins may want to change later. For instance, you can create a variable for the site's official Twitter handle. If it ever changes, it can be easily changable via the variables module. 
 
 ## Creating Variables
 

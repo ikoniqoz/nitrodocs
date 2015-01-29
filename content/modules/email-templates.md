@@ -4,7 +4,7 @@ The email templates module stores all module email templates, so they can be eas
 
 They are broken down into two groups:
 
-* **Default Templates** - These are the templates that come with PyroCMS.
+* **Default Templates** - These are the templates that come with NitroCMS.
 * **User Defined Templates** - These are templates that you or other modules define.
 
 {{ asset:img file="docs/email\_templates/templates.png" alt="Email Templates" class="doc_image" }}
@@ -40,11 +40,11 @@ You can enter the following info into the new template form:
 	</tr>
 	<tr>
 		<td>Subject</td>
-		<td>The subject of the email that users who receive it will see. You can use PyroCMS tags here.</td>
+		<td>The subject of the email that users who receive it will see. You can use NitroCMS tags here.</td>
 	</tr>
 	<tr>
 		<td>Body</td>
-		<td>The full email body. You can use PyroCMS tags here as well.</td>
+		<td>The full email body. You can use NitroCMS tags here as well.</td>
 	</tr>
 </table>
 

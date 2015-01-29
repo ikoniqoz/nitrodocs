@@ -1,6 +1,6 @@
 # Control Panel GUI
 
-PyroCMS comes with a wide range of tools to make developing module UI interfaces easy and streamlined. The following outlines the various GUI tools and standards for the PyroCMS control panel.
+NitroCMS comes with a wide range of tools to make developing module UI interfaces easy and streamlined. The following outlines the various GUI tools and standards for the NitroCMS control panel.
 
 To keep things consistent, this page also contains notes on GUI guidelines - from button naming and placement to phrasing. We strongly recommend following these guidelines, but if you need to ignore some of them, please keep a consistent user experience in mind.
 
@@ -39,7 +39,7 @@ As you can see, we have two section elements: <samp>title</samp> and <samp>item<
 
 ## Buttons
 
-Buttons on the PyroCMS admin area come in two flavors: the smaller, gray buttons (secondary buttons) and the larger buttons (primary) that can be colored.
+Buttons on the NitroCMS admin area come in two flavors: the smaller, gray buttons (secondary buttons) and the larger buttons (primary) that can be colored.
 
 Secondary buttons require a class of <samp>button</samp>. Primary buttons require a class of <samp>btn</samp> and a color class, such as <samp>blue</samp> or <samp>gray</samp>.
 
@@ -61,7 +61,7 @@ Action buttons such as Save, Save & Close, Cancel, etc. should be primary button
 
 ## Data Tables
 
-Sections are the main building block of the PyroCMS 2.0 interface. They consist of a section title and a section item:
+Sections are the main building block of the NitroCMS 2.0 interface. They consist of a section title and a section item:
 
 ### Tables
 
@@ -103,7 +103,7 @@ In the header, you may wish to have a checkbox that, when checked, checks all of
 
 	<th><?php echo form_checkbox(array('name' => 'action_to_all', 'class' => 'check-all'));?></th>
 
-Finally, PyroCMS has built-in logic to disable/enable table batch action buttons based on whether or not any rows in the database are checked. You can use this logic by wrapping your batch action buttons in a div with a class of **table\_action\_buttons**:
+Finally, NitroCMS has built-in logic to disable/enable table batch action buttons based on whether or not any rows in the database are checked. You can use this logic by wrapping your batch action buttons in a div with a class of **table\_action\_buttons**:
 
 	<div class="table_action_buttons">
 		<?php $this->load->view('admin/partials/buttons', array('buttons' => array('delete'))); ?>;
@@ -141,7 +141,7 @@ Obviously the filters can be anything you want, but this should give you a gener
 
 ### Pagination
 
-Pagination is an important part of any data table, and PyroCMS has a built-in pagination generation function that has all of the PyroCMS pagination styles preset.
+Pagination is an important part of any data table, and NitroCMS has a built-in pagination generation function that has all of the NitroCMS pagination styles preset.
 
 	create_pagination($uri, $total_rows, $limit = NULL, $uri_segment = 4, $full_tag_wrap = TRUE)
 	
@@ -177,7 +177,7 @@ Here is an example of form markup:
 		<?php $this->load->view('admin/partials/buttons', array('buttons' => array('save', 'cancel') )); ?>
 	</div><!-- /.buttons -->
 
-<div class="tip"><strong>Note:</strong> PyroCMS handles the display of all flash messages (such as errors), so as long as you are using the Form Validation class in CodeIgniter, you do not need to worry about showing inline error messages in forms.</div>
+<div class="tip"><strong>Note:</strong> NitroCMS handles the display of all flash messages (such as errors), so as long as you are using the Form Validation class in CodeIgniter, you do not need to worry about showing inline error messages in forms.</div>
 
 ## Columns
 Any element of an admin page may be split into as many as four columns using the CSS classes <samp>one\_quarter</samp>, <samp>one\_half</samp>, <samp>three\_quarters</samp>, and <samp>one\_full</samp>. For instance, three columns with the leftmost using half the parent's width:
@@ -214,7 +214,7 @@ The <samp>last</samp> class may be applied to float a class right instead of lef
 
 ## Tabs
 
-PyroCMS uses the jQuery UI for tabs on admin pages. Use the <samp>tabs</samp> and <samp>tab-menu</samp> classes as follows:
+NitroCMS uses the jQuery UI for tabs on admin pages. Use the <samp>tabs</samp> and <samp>tab-menu</samp> classes as follows:
 
 	<div class="tabs">
 		<ul class="tab-menu">

@@ -27,7 +27,7 @@ The textarea field type allows you to enter blocks of text into a textarea box.
 		<tr> 
 			<td>Allow Lex Tags</td> 
 			<td>No</td> 
-			<td>If set to <samp>Yes</samp> any PyroCMS tags in the textarea content will be parsed before output. If set to <samp>No</samp> any PyroCMS tags will be converted to entities before output.</td> 
+			<td>If set to <samp>Yes</samp> any NitroCMS tags in the textarea content will be parsed before output. If set to <samp>No</samp> any NitroCMS tags will be converted to entities before output.</td> 
 		</tr> 
 		<tr> 
 			<td>Content Type</td> 

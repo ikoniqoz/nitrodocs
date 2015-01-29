@@ -4,7 +4,7 @@ The _settings_ plugin allows access to site settings.
 
 	{{ noparse }}{{ settings:setting }}{{ /noparse }}
 	
-Returns a setting value. Most are simply text strings edited via the settings tab in PyroCMS. Some, however, are boolean and use 1 for true and 0 for false.
+Returns a setting value. Most are simply text strings edited via the settings tab in NitroCMS. Some, however, are boolean and use 1 for true and 0 for false.
 
 For example, if you want to retrieve the `mail_protocol` setting value, you can use:
 
@@ -36,11 +36,11 @@ For example, if you want to retrieve the `mail_protocol` setting value, you can 
 		</tr>
 		<tr>
 			<td>api_enabled</td>
-			<td>1 or 0. For PyroCMS Pro version only.</td>
+			<td>1 or 0. For NitroCMS Pro version only.</td>
 		</tr>
 		<tr>
 			<td>api_user_keys</td>
-			<td>1 or 0. Allow users to sign up for API keys (if the API is Enabled). For PyroCMS Pro version only.</td>
+			<td>1 or 0. Allow users to sign up for API keys (if the API is Enabled). For NitroCMS Pro version only.</td>
 		</tr>
 		<tr>
 			<td>auto_username</td>

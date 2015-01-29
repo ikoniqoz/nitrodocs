@@ -1,13 +1,13 @@
 # Server Requirements
 
-Below are the server requirements for running PyroCMS 2.x. If you aren't sure if you have all of these, PyroCMS will check for them on installation for you.
+Below are the server requirements for running NitroCMS 2.x. If you aren't sure if you have all of these, NitroCMS will check for them on installation for you.
 
 </div>
 <div class="doc_content">
 
 ### a HTTP web-server of some description
 
-Apache 2.x, Abyss Web Server, Uniform Server, Zend Community Server, etc. So far PyroCMS only seems to struggle with IIS.
+Apache 2.x, Abyss Web Server, Uniform Server, Zend Community Server, etc. So far NitroCMS only seems to struggle with IIS.
 
 ### MySQL 5.x or higher
 
@@ -27,7 +27,7 @@ This library needs to be installed on your server with PHP compiled to include i
 
 ### Bundled Requirements
 
-PyroCMS uses these third-party packages to run, but includes them in each release so you do not need to install them yourself:
+NitroCMS uses these third-party packages to run, but includes them in each release so you do not need to install them yourself:
 
 * <a href="http://codeigniter.com/" target="_blank">CodeIgniter 2.1.x</a>
 * <a href="http://jquery.com/" target="_blank">jQuery 1.7.x</a>

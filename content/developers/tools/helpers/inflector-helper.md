@@ -36,7 +36,7 @@ Takes multiple words separated by underscores and changes them to spaces.
 
 ### keywords($str)
 
-Takes multiple words separated by spaces and changes them to _keywords_ in the PyroCMS context. Makes sure the keywords are separated by a comma followed by a space.
+Takes multiple words separated by spaces and changes them to _keywords_ in the NitroCMS context. Makes sure the keywords are separated by a comma followed by a space.
 
 <table cellpadding="0" cellspacing="0">
 	<tbody>

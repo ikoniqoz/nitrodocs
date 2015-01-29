@@ -11,7 +11,7 @@ The navigation module allows you to create navigation groups and use them in you
 
 All links belong to a **navigation group**. This allows you to create navigation groups like "header" and "footer" so you can organize your links.
 
-PyroCMS comes with some navigation groups by default, but to create a new group, click **Add a Group**. You can give your group a name and a slug.
+NitroCMS comes with some navigation groups by default, but to create a new group, click **Add a Group**. You can give your group a name and a slug.
 
 {{ asset:img file="docs/nav\_module/new\_group.png" alt="File Details" class="doc_image" }} 
 

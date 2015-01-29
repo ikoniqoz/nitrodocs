@@ -1,5 +1,5 @@
-installing-pyrocms | Installing PyroCMS
-configuring-pyrocms | Configuring PyroCMS
+installing-pyrocms | Installing NitroCMS
+configuring-pyrocms | Configuring NitroCMS
 creating-a-new-page | Creating a New Page
 creating-a-page-type | Creating a Page Type
 next-steps | Next Steps

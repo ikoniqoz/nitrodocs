@@ -1,6 +1,6 @@
 # Module Development
 
-PyroCMS is built to be modular, so creating modules is a pretty simple process. The core modules are stored in <dfn>system/cms/modules</dfn> and you can install extra ones to <dfn>addons/default/modules</dfn> or <dfn>addons/shared_addons/modules</dfn>. Any module you create should go into one of those two locations, not in <dfn>system/cms/modules</dfn>.
+NitroCMS is built to be modular, so creating modules is a pretty simple process. The core modules are stored in <dfn>system/cms/modules</dfn> and you can install extra ones to <dfn>addons/default/modules</dfn> or <dfn>addons/shared_addons/modules</dfn>. Any module you create should go into one of those two locations, not in <dfn>system/cms/modules</dfn>.
 
 Each module can contain the following directories:
 
@@ -22,13 +22,13 @@ If a module will need to have a front-end (something that displays to the user) 
 
 Each module contains a <dfn>details.php</dfn> file which contains its name, description, version, whether it is available in the backend and/or frontend, admin menus, etc. If you set a module to `backend => false` then it will not show in the admin panel menu. Likewise if you set it to `frontend => false` it will not be available in places like Navigation where it shows a list of modules to link to.
 
-When the __CP > Addons__ page is loaded or when PyroCMS is installed it indexes all <dfn>details.php</dfn> files and stores the data from the `info()` method in the _default\_modules_ table. If you make edits to this file the changes will not be seen until it is re-installed or you edit the table manually. One exception is the sections and shortcuts used by the admin panel. These are loaded each time they are needed so you can place permission checks around them and control the menus the way you need to.
+When the __CP > Addons__ page is loaded or when NitroCMS is installed it indexes all <dfn>details.php</dfn> files and stores the data from the `info()` method in the _default\_modules_ table. If you make edits to this file the changes will not be seen until it is re-installed or you edit the table manually. One exception is the sections and shortcuts used by the admin panel. These are loaded each time they are needed so you can place permission checks around them and control the menus the way you need to.
 
 You must use `$this->db->dbprefix('table_name')` when running manual queries. This makes sure the module is using the correct database table as all table names are prefixed with a "site ref" which in most installations will simply be "default_". This ensures that you may easily upgrade to Professional if the need arises or that you may distribute the module for installation on both Community and Pro.
 
 <div class="tip"><strong>Note:</strong> this is only necessary when using <code>$this->db->query()</code> or similar. Active Record such as <code>$this->db->where()</code> and <code>$this->db->get()</code> add the prefix automatically. You can also manage your tables with dbforge to avoid this step as it automatically adds the prefix.</div>
 
-If you wish to create a module that is available for use across all sites on a Multi-Site install then you can specify your own prefix before running queries to that table. Just remember to set it back in case PyroCMS makes more queries after your module. You may set the prefix using `$this->db->set_dbprefix('custom');` and you may set it back by using `$this->db->set_dbprefix(SITE_REF.'_');`
+If you wish to create a module that is available for use across all sites on a Multi-Site install then you can specify your own prefix before running queries to that table. Just remember to set it back in case NitroCMS makes more queries after your module. You may set the prefix using `$this->db->set_dbprefix('custom');` and you may set it back by using `$this->db->set_dbprefix(SITE_REF.'_');`
 
 Here is the basic structure for the details.php file:
 
@@ -45,7 +45,7 @@ Here is the basic structure for the details.php file:
 					'en' => 'Sample'
 				),
 				'description' => array(
-					'en' => 'This is a PyroCMS module sample.'
+					'en' => 'This is a NitroCMS module sample.'
 				),
 				'frontend' => true,
 				'backend' => true,
@@ -155,13 +155,13 @@ This array will be available in your Public\_Controller's and Admin\_Controller'
 
 ## Detail File Resources
 
-Although it is likely that your third party module will be installed via the Add-ons section of the control panel, it is a good precaution to take note that your module may be installed when the PyroCMS installer runs. Modules that are in the <dfn>shared_addons</dfn> folder will be installed along with core modules during installation.
+Although it is likely that your third party module will be installed via the Add-ons section of the control panel, it is a good precaution to take note that your module may be installed when the NitroCMS installer runs. Modules that are in the <dfn>shared_addons</dfn> folder will be installed along with core modules during installation.
 
-Because the installer is a separate CodeIgniter application, you cannot load any module files such as configs or helpers when your module is being installed via the PyroCMS installer. Because of this, we recommend that your <dfn>details.php</dfn> file be independent of other configs, helpers, or other CodeIgniter-loaded resources.
+Because the installer is a separate CodeIgniter application, you cannot load any module files such as configs or helpers when your module is being installed via the NitroCMS installer. Because of this, we recommend that your <dfn>details.php</dfn> file be independent of other configs, helpers, or other CodeIgniter-loaded resources.
 
 ## Public Controllers
 
-In a normal CodeIgniter installation there is only one controller class. In PyroCMS there are four. Controller, MY\_Controller, Admin\_Controller and Public\_Controller. To use one of these you can extend them like so:
+In a normal CodeIgniter installation there is only one controller class. In NitroCMS there are four. Controller, MY\_Controller, Admin\_Controller and Public\_Controller. To use one of these you can extend them like so:
 
 	class News extends Public_Controller {
 

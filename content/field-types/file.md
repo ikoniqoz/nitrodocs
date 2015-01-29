@@ -16,7 +16,7 @@ The file field type allows you to upload and link to a file.
  <tbody> 
   <tr> 
    <td>Upload Folder</td> 
-   <td>Interfaces with the PyroCMS files module. Create an upload folder in the files module and select it here.</td> 
+   <td>Interfaces with the NitroCMS files module. Create an upload folder in the files module and select it here.</td> 
   </tr> 
   <tr> 
    <td>Allowed Types</td> 

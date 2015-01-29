@@ -1,6 +1,6 @@
 # Theme Plugin
 
-The _theme_ plugin gives you access to theme assets and partials. It is a critical and extremely useful plugin for building your sites with PyroCMS.
+The _theme_ plugin gives you access to theme assets and partials. It is a critical and extremely useful plugin for building your sites with NitroCMS.
 
 The theme plugin's slug is __theme__, so it can be used like so:
 
@@ -496,5 +496,5 @@ Displays a language string from the current language for the theme of you choosi
 
 **Example (Displaying a line "theme_title" from language "theme" file):**
 
-	{{ noparse }}{{ theme:lang lang="theme" line="theme_title" default="PyroCMS" }}{{ /noparse }}
+	{{ noparse }}{{ theme:lang lang="theme" line="theme_title" default="NitroCMS" }}{{ /noparse }}
 

@@ -1,6 +1,6 @@
 # Configuring Nginx with PHP-FPM
 
-For those of you that like using [Nginx](http://nginx.org/), we have good news, you can run PyroCMS just fine. 
+For those of you that like using [Nginx](http://nginx.org/), we have good news, you can run NitroCMS just fine. 
 
 ## Setting up your virtual host
 
@@ -58,7 +58,7 @@ We are going to use try\_files instead of the Rewrite Module. You can find out m
 	        include drop.conf;
 	}
 	
-This configuration will work out of the box when PyroCMS is first uploaded to the web root.  One recommendation I have is to make the following changes to the **/installer/config/config.php** and **/system/cms/config/config.php**.
+This configuration will work out of the box when NitroCMS is first uploaded to the web root.  One recommendation I have is to make the following changes to the **/installer/config/config.php** and **/system/cms/config/config.php**.
 
 	$config['index_page'] = "";
 	$config['uri_protocol'] = "REQUEST_URI";

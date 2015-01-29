@@ -1,12 +1,12 @@
 # Modules
 
-Many add-ons need more than just functionality you can access via PyroCMS tags. Sometimes you need an interface in the control panel, as well as other resources like javascript files.
+Many add-ons need more than just functionality you can access via NitroCMS tags. Sometimes you need an interface in the control panel, as well as other resources like javascript files.
 
-Modules are the largest type of PyroCMS add-on. They have a place in the control panel menu (usually), have control panel controls, their own widgets, and their own plugins.
+Modules are the largest type of NitroCMS add-on. They have a place in the control panel menu (usually), have control panel controls, their own widgets, and their own plugins.
 
-For instance, the Pages module contains the control panel area that allows you to create and organize pages, and also the {{ link title="pages plugin" uri="plugins/pages" }}, which allows you to do things like display a page tree with PyroCMS tags.
+For instance, the Pages module contains the control panel area that allows you to create and organize pages, and also the {{ link title="pages plugin" uri="plugins/pages" }}, which allows you to do things like display a page tree with NitroCMS tags.
 
-What makes PyroCMS modules unique is the fact that they can have public-facing pages as well.
+What makes NitroCMS modules unique is the fact that they can have public-facing pages as well.
 
 For instance, the Blog module allows you to manage posts in the control panel, but yoursite.com/blog maps to the blog module and displays posts using your theme.
 

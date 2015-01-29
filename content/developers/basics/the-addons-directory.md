@@ -2,7 +2,7 @@
 
 The <dfn>/addons/</dfn> directory is the main location for all custom code and is simply a CodeIgniter **"Application Package"**. The main purpose of this folder is to store all third-party or custom modules, widgets and plugins but it can also be used to share custom config, libraries, helpers and language files between your addons.
 
-Multiple sites are available in PyroCMS Professional, so addons are divided between PyroCMS sites, and can therefore be stored in one of the following locations:
+Multiple sites are available in NitroCMS Professional, so addons are divided between NitroCMS sites, and can therefore be stored in one of the following locations:
 
 * <dfn>addons/shared\_addons</dfn> - These are available to _all_ sites
 * <dfn>addons/default</dfn> - Available only to the default site
@@ -35,7 +35,7 @@ Save it in the libraries folder, and load it where necessary:
 
     $this->load->library('search_input');
 
-It is NOT recommended to extend or overwrite libraries in the <dfn>system/cms</dfn> or <dfn>system/codeigniter</dfn> folders, as this breaks the ability to easily upgrade PyroCMS, and makes it difficult to find your code at a later date.
+It is NOT recommended to extend or overwrite libraries in the <dfn>system/cms</dfn> or <dfn>system/codeigniter</dfn> folders, as this breaks the ability to easily upgrade NitroCMS, and makes it difficult to find your code at a later date.
 
 In a similar way there are limitations on what config files you can put into the config folder. For example; config files like <dfn>autoload.php</dfn>, <dfn>database.php</dfn> and <dfn>routes.php</dfn> will have no effect here. It is recommended you only put custom config files in here that will be loaded and used within your own add-ons.
 

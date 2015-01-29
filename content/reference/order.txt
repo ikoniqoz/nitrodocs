@@ -2,7 +2,7 @@ changelog
 license
 server-requirements
 troubleshooting
-pyrocms-versions | PyroCMS Versions
+pyrocms-versions | NitroCMS Versions
 languages
-nginx-with-php-fpm | Using PyroCMS with Nginx
+nginx-with-php-fpm | Using NitroCMS with Nginx
 upgrade-guides

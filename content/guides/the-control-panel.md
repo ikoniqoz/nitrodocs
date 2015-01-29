@@ -12,11 +12,11 @@ To log into your control panel, go to **yoursite.com/admin**. Enter your email a
 
 {{ asset:img file="docs/login.png" alt="Login Screen" class="doc_image" }}
 
-## The PyroCMS Interface
+## The NitroCMS Interface
 
 {{ asset:img file="docs/interface.png" alt="Interface" class="doc_image" }}
 
-The PyroCMS is designed to be simple and clear. On the top of the screen, you have the **main menu**, which is where you'll find links to various 
+The NitroCMS is designed to be simple and clear. On the top of the screen, you have the **main menu**, which is where you'll find links to various 
 
 ## The CP Menu
 
@@ -68,6 +68,6 @@ Your entire control panel can be accessed from the top black navigation bar.  Th
 
 ## Changing the Default Language
 
-PyroCMS comes in many different languages, and to change the language (English, by default), choose a new language from the menu on the right hand side of the footer:
+NitroCMS comes in many different languages, and to change the language (English, by default), choose a new language from the menu on the right hand side of the footer:
 
-{{ asset:img file="docs/change-language.png" alt="PyroCMS change language" class="doc_image" }}
+{{ asset:img file="docs/change-language.png" alt="NitroCMS change language" class="doc_image" }}

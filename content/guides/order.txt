@@ -1,8 +1,8 @@
 environments
-pyrocms-folder-structure | PyroCMS Folder Structure
+pyrocms-folder-structure | NitroCMS Folder Structure
 the-control-panel
-pyrocms-tags | PyroCMS Tags
-pyrocms-urls | PyroCMS URLs
+pyrocms-tags | NitroCMS Tags
+pyrocms-urls | NitroCMS URLs
 organization | Organizing Your Site
 themes
 streams | Streams

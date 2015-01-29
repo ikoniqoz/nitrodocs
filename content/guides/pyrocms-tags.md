@@ -1,6 +1,6 @@
-# PyroCMS Tags
+# NitroCMS Tags
 
-One of the unique features of PyroCMS is Tags, powered by the [Lex Parser](https://github.com/pyrocms/lex). Tags allow you to tap into more advanced functionality using simple syntax right inside your layouts, page layouts, and even pages themselves. Tags can allow you to do some really powerful things without crowding your layouts with messy PHP code.
+One of the unique features of NitroCMS is Tags, powered by the [Lex Parser](https://github.com/pyrocms/lex). Tags allow you to tap into more advanced functionality using simple syntax right inside your layouts, page layouts, and even pages themselves. Tags can allow you to do some really powerful things without crowding your layouts with messy PHP code.
 
 The following guide will teach you the basics of tags and how to use them in your layouts.
 
@@ -23,11 +23,11 @@ When you put that in your markup, it will be replaced by some value. Pretty simp
 
 <div class="note"><p>The white-space inside the curly braces is optional, but does help with aesthetics and readability.</p></div>
 
-Now let's take the example of a common concept in PyroCMS: a tag with two words separated by a colon:
+Now let's take the example of a common concept in NitroCMS: a tag with two words separated by a colon:
 
     {{ noparse }}{{ settings:site_name }}{{ /noparse }}
 
-This tag has some basic parts: two curly braces on either site, and two text strings separated by a colon. This format tells PyroCMS that we want to access a plugin's function or plugin's variable. The first string, **settings** in this case, tells the tag what plugin to reference, and then the second string, **site_name** in this case, tells the tag what function or variable to call.
+This tag has some basic parts: two curly braces on either site, and two text strings separated by a colon. This format tells NitroCMS that we want to access a plugin's function or plugin's variable. The first string, **settings** in this case, tells the tag what plugin to reference, and then the second string, **site_name** in this case, tells the tag what function or variable to call.
 
 So if we put the above tag in our layout, and our {{ link uri="plugins/settings" title="site_name variable" }} was set to "Bill's Bagels", then it would return:
 
@@ -60,7 +60,7 @@ If the first segment is empty, the tag will return "home".
 
 ## Using Tags and Variables In Tag Parameters
 
-_Inside quotes, PyroCMS cannot parse curly braces_. So, for instance, if you wanted to pass the value of the slug from the page plugin, this **will not work**:
+_Inside quotes, NitroCMS cannot parse curly braces_. So, for instance, if you wanted to pass the value of the slug from the page plugin, this **will not work**:
 
     {{ noparse }}{{ url:segments segment="1" default="{{ page:slug }}" }}{{ /noparse }}
 
@@ -76,7 +76,7 @@ Although this is an easy solution for single functions and variables, for more c
 
     {{ noparse }}{{ url:segments segment="1" default="[[ page:slug ]]" }}{{ /noparse }}
 
-PyroCMS parses each parameter separately for square brackets, so you can even do logic within your paramters:
+NitroCMS parses each parameter separately for square brackets, so you can even do logic within your paramters:
 
     {{ noparse }}{{ url:segments segment="1" default="[[ if global:environment == 'development' ]]dev_home[[ else ]]home[[ endif ]]" }}{{ /noparse }}
 
@@ -84,7 +84,7 @@ PyroCMS parses each parameter separately for square brackets, so you can even do
 
 ## Tag Pairs
 
-Another powerful feature of PyroCMS tags is the ability to use data between tags. Take this example of a blog posts tag:
+Another powerful feature of NitroCMS tags is the ability to use data between tags. Take this example of a blog posts tag:
 
     {{ noparse }}{{ blog:posts limit="2" order-by="title" order-dir="desc" }}
      &lt;h2>{{ title }}&lt;/h2>
@@ -111,7 +111,7 @@ Occasionally, single tags can act as arrays of data that you can loop through. Y
 
 ## Tag Conditionals
 
-Many times in your layouts you will want to show something under certain conditions. For instance, if a user is logged in or if a url segment has a certain value. PyroCMS tags allow you to do that with an if/else tag syntax.
+Many times in your layouts you will want to show something under certain conditions. For instance, if a user is logged in or if a url segment has a certain value. NitroCMS tags allow you to do that with an if/else tag syntax.
 
 <div class="note"><p>Undefined variables in Conditionals are evaluated to be null.  This allows you to do things like {{ noparse }}{{ if foo }}{{ /noparse }} to check if a variable exists.</p></div>
 
@@ -133,7 +133,7 @@ You can use operators to compare values in an if statement. These used to compar
     &lt;p>Looks like you are in the categories section.&lt;/p>
 {{ endif }}{{ /noparse }}
 
-<div class="note"><p>PyroCMS function tags can be used in conditionals, but must be wrapped in single curly braces if they have one or more parameter, as in the above example.</p></div>
+<div class="note"><p>NitroCMS function tags can be used in conditionals, but must be wrapped in single curly braces if they have one or more parameter, as in the above example.</p></div>
 
 <div class="note"><p>When using function tags wrapped in curly braces in conditionals, the space after the opening curly brace and before the closing curly brace must be omitted. The tag will not render properly otherwise. Ex: <strong> {{ noparse }}{url:segments segment="2"}{{ /noparse }}</strong>.</p></div>
 

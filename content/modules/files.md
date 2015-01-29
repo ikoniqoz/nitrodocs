@@ -9,7 +9,7 @@
 * {{ docs:id_link title="Searching Files" }}
 * {{ docs:id_link title="File Layout Tags" }}
 
-The files module is where all of your PyroCMS files are located. When you add an image to a blog post, for instance, the upload box that comes up feeds directly into the files module, and you can upload to one of the folders you've created via the files module.
+The files module is where all of your NitroCMS files are located. When you add an image to a blog post, for instance, the upload box that comes up feeds directly into the files module, and you can upload to one of the folders you've created via the files module.
 
 The files module has built in support for cloud file providers [Amazon S3](http://aws.amazon.com/s3/) and [Rackspace Cloud Files](http://www.rackspace.com/cloud/public/files/).
 
@@ -63,7 +63,7 @@ To delete a file, choose **Delete** from the file context menu.
 
 ## Viewing Editing File Metadata
 
-Aside from the file name, PyroCMS stores several pieces of data about each file, including a description of the file that you can edit. To see the file metadata, choose **Details** from the file context menu.
+Aside from the file name, NitroCMS stores several pieces of data about each file, including a description of the file that you can edit. To see the file metadata, choose **Details** from the file context menu.
 
 {{ asset:img file="docs/files\_module\_details.png" alt="File Details" class="doc_image" }}
 
@@ -125,7 +125,7 @@ Cloud files are files that are not stored on the local server filesystem, but ar
 * [Amazon S3](http://aws.amazon.com/s3/)
 * [Rackspace Cloud Files](http://www.rackspace.com/cloud/public/files/)
 
-Follow the links above to sign up for an account to start using cloud files with PyroCMS. When you create an account on either, you are given access credentials. Go to the **Settings** area of PyroCMS and click on the **Files** tab. You'll see a setting to enable/disable each service:
+Follow the links above to sign up for an account to start using cloud files with NitroCMS. When you create an account on either, you are given access credentials. Go to the **Settings** area of NitroCMS and click on the **Files** tab. You'll see a setting to enable/disable each service:
 
 {{ asset:img file="docs/files\_module\_settings.png" alt="Files Module New Folder" class="doc_image" }}
 

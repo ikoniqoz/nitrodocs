@@ -11,7 +11,7 @@ Before you hit the forums, check out our list of some common issues and their so
 
 ## Installation Problems on GoDaddy
 
-If you are trying to install PyroCMS on GoDaddy servers, you may need to make some adjustments:
+If you are trying to install NitroCMS on GoDaddy servers, you may need to make some adjustments:
 
 First add an .htaccess to the install directory:
 
@@ -31,7 +31,7 @@ In the same file, change <var>$config['uri_protocol']</var>:
 
 ## Emails Are Not Being Sent
 
-If you are trying to send email via PyroCMS (via the contact plugin, or any other method) and no emails are being sent, the first step is to check the settings of whatever mail method you are using. You can find those settings in <samp>Settings</samp>, undert the <samp>Email</samp> tab.
+If you are trying to send email via NitroCMS (via the contact plugin, or any other method) and no emails are being sent, the first step is to check the settings of whatever mail method you are using. You can find those settings in <samp>Settings</samp>, undert the <samp>Email</samp> tab.
 
 If you are sure your settings are correct, there might be an isse with line endings in your email. The majority of server mail software is fine with using <code>PHP_EOL</code> for line endings, but some software (like qmail) might need you to set your line endings to <code>\r\n</code>.
 

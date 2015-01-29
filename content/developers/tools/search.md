@@ -78,7 +78,7 @@ can limit search results to specific modules, or even specific types of entry wi
 		->filter($this->input->get('filter'))
 		->search($query);
 
-This is how PyroCMS handles the data-interaction and pagination inside the search plugin. Filter is a multidimentional array, which looks like this:
+This is how NitroCMS handles the data-interaction and pagination inside the search plugin. Filter is a multidimentional array, which looks like this:
 
 	$this->search_index_m->filter(array(
 		'blog' => 'blog:posts'

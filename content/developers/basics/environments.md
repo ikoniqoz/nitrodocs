@@ -8,7 +8,7 @@ when "live".
 
 ## The ENVIRONMENT Constant
 
-By default, PyroCMS comes with the environment constant set to 'development'. Near the top of index.php, you will see::
+By default, NitroCMS comes with the environment constant set to 'development'. Near the top of index.php, you will see::
 
 	define('PYRO_DEVELOPMENT', 'development');
 	define('PYRO_STAGING', 'staging');
@@ -22,7 +22,7 @@ differentiate between which environment you are running in.
 
 ## Effects On Default Framework Behavior
 
-There are some places in PyroCMS where the <kbd>ENVIRONMENT</kbd> constant is used. This section describes how default framework behavior is affected.
+There are some places in NitroCMS where the <kbd>ENVIRONMENT</kbd> constant is used. This section describes how default framework behavior is affected.
 
 ### Error Reporting
 
@@ -33,7 +33,7 @@ output. Disabling error reporting in production is a good security.
 
 ### Configuration Files
 
-Optionally, you can have PyroCMS load environment-specific
+Optionally, you can have NitroCMS load environment-specific
 configuration files. This may be useful for managing things like
 differing API keys across multiple environments. This is described in
 more detail in the environment section of the [CodeIgniter Config
@@ -41,6 +41,6 @@ Class](http://codeigniter.com/user_guide/libraries/config.html#environments) doc
 
 ## Setting $\_SERVER['PYRO\_ENV']
 
-The easiest way to change ENVIRONMENTS is to make your servers aware of what envionment PyroCMS expects them to be. You can do this with a nice interface if you use a Platform-as-a-Service like Pagoda Box or PHP Fog for your hosting, but can be a little more tricky for others. Apache supports a SetEnv via [mod\_env](http://httpd.apache.org/docs/2.2/mod/mod_env.html) and this can be done in your main Apache config, or you can open .htaccess in the root folder and remove the **`#`** from this line:
+The easiest way to change ENVIRONMENTS is to make your servers aware of what envionment NitroCMS expects them to be. You can do this with a nice interface if you use a Platform-as-a-Service like Pagoda Box or PHP Fog for your hosting, but can be a little more tricky for others. Apache supports a SetEnv via [mod\_env](http://httpd.apache.org/docs/2.2/mod/mod_env.html) and this can be done in your main Apache config, or you can open .htaccess in the root folder and remove the **`#`** from this line:
 
 	SetEnv PYRO_ENV production

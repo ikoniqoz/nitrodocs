@@ -1,6 +1,6 @@
 # Template Library
 
-The template library powers all out the output on the PyroCMS public and admin pages. The template is auto-loaded, so there is no need to load it in your controllers.
+The template library powers all out the output on the NitroCMS public and admin pages. The template is auto-loaded, so there is no need to load it in your controllers.
 
 ## Method Reference
 
@@ -12,7 +12,7 @@ Sets the title of the page. You can send as many title parameters as you'd like,
 
 ### build(<var>$view, [$data]</var>)
 
-The build function is what builds the output for the browser in PyroCMS and is used in lieu of simply loading a view. It will take the theme data, layout, and build those elements automatically, so your view file only needs to contain the actual page content. 
+The build function is what builds the output for the browser in NitroCMS and is used in lieu of simply loading a view. It will take the theme data, layout, and build those elements automatically, so your view file only needs to contain the actual page content. 
 
 	$this->template->build('form', $this->data);
 
@@ -48,7 +48,7 @@ Allows you to set a layout from your **your_theme/views/layouts** folder.
 	// as the page layout.
 	$this->template->set_layout('two_col');
 	
-<div class="tip"><strong>Note:</strong> When using Public\_Controller and Admin\_Controller, the layout is already set. However, in some cases, you may prefer to override this function or use set a layout outside of the PyroCMS base controllers.</div>
+<div class="tip"><strong>Note:</strong> When using Public\_Controller and Admin\_Controller, the layout is already set. However, in some cases, you may prefer to override this function or use set a layout outside of the NitroCMS base controllers.</div>
 
 ### set\_theme(<var>$theme\_name</var>)
 
@@ -60,7 +60,7 @@ Allows you to set a theme.
 
 ### enable\_parser(<var>bool</var>)
 
-This allows you to enable the PyroCMS Lex tag parser. When the tag parser is off, PyroCMS tags will not work in your views.
+This allows you to enable the NitroCMS Lex tag parser. When the tag parser is off, NitroCMS tags will not work in your views.
 
 	$this->template->enable_parser(true);
 
@@ -76,7 +76,7 @@ Returns the path of the current theme.
 
 ## Chaining
 
-The template library methods are frequently chained in PyroCMS, so you may see the functions called like this:
+The template library methods are frequently chained in NitroCMS, so you may see the functions called like this:
 
 	$this->template
 		->title($this->module_details['name'], lang('keywords:add_title'))

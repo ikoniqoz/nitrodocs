@@ -1,16 +1,16 @@
 # Translating Language Files
 
-PyroCMS is built to have a fully multi-lingual interface, which means you can switch between different languages, and if your language is not supported you can easily translate from one of the existing languages into yours.
+NitroCMS is built to have a fully multi-lingual interface, which means you can switch between different languages, and if your language is not supported you can easily translate from one of the existing languages into yours.
 
 ### Step #1: Translate or Download a CodeIgniter language pack
 
-The [CodeIgniter translations](https://github.com/EllisLab/CodeIgniter/wiki/Language-Translation) are all now drastically out of date, as PyroCMS uses CodeIgniter 3.0, so you will need to translate them yourself.
+The [CodeIgniter translations](https://github.com/EllisLab/CodeIgniter/wiki/Language-Translation) are all now drastically out of date, as NitroCMS uses CodeIgniter 3.0, so you will need to translate them yourself.
 
 Copy the English translation folder from `system/codeigniter/languages/&lt;language-name&gt;` and translate each file to the new language.
 
-### Step #2: Translate PyroCMS language pack
+### Step #2: Translate NitroCMS language pack
 
-PyroCMS language files exist both in the main application folder and inside each module. This is a list of all folders that contain language files:
+NitroCMS language files exist both in the main application folder and inside each module. This is a list of all folders that contain language files:
 
 1. system/cms/language/*&lt;language-name&gt;*/
 2. system/cms/modules/*&lt;module-name&gt;*/language/*&lt;language-name&gt;*/
@@ -28,4 +28,4 @@ Open up system/cms/config/languages.php and add your language to the array with 
 
 That should be it! If you get any language related errors when you switch to your new language and want to switch back to English then just add ?lang=en to any URL.
 
-When you have confirmed that it everything looks correct you could consider contributing the language pack changes back to the core of PyroCMS via {{ link uri="developers/contributing/using-git" title="forking with Git" }}. This way it can be contributed to the next major version and others will not have to spend time translating PyroCMS themselves.
+When you have confirmed that it everything looks correct you could consider contributing the language pack changes back to the core of NitroCMS via {{ link uri="developers/contributing/using-git" title="forking with Git" }}. This way it can be contributed to the next major version and others will not have to spend time translating NitroCMS themselves.

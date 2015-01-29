@@ -1,6 +1,6 @@
 # Entry Form
 
-<p>PyroStreams gives you tools to allow for modification of data through PyroCMS page templates, so you can build data interactions without having to give users access to your control panel.</p>
+<p>PyroStreams gives you tools to allow for modification of data through NitroCMS page templates, so you can build data interactions without having to give users access to your control panel.</p>
 	
 * {{ docs:id_link title="The Entry Form" }}
 * {{ docs:id_link title="Form Parameters" }}
@@ -15,7 +15,7 @@
 
 ## The Entry Form
  
-<p>PyroStreams allows you to display a create or edit form using the PyroCMS tag system. Forms are generated using the following format:</p>
+<p>PyroStreams allows you to display a create or edit form using the NitroCMS tag system. Forms are generated using the following format:</p>
 
 	{{ noparse }}{{ streams:form stream="concerts" mode="new" }}
 
@@ -276,7 +276,7 @@ Many fields have CSS or Javascript that needs to be loaded. Depending on your th
 
 ## Overriding Success/Failure Messages
 
-Many PyroCMS themes have built-in displays for flash data (that is, data that is only available on the next page refresh, and usually contains a message about the success/failure of the previous action). You can control what these messages say with these two parameters:
+Many NitroCMS themes have built-in displays for flash data (that is, data that is only available on the next page refresh, and usually contains a message about the success/failure of the previous action). You can control what these messages say with these two parameters:
 
 <table cellpadding="0" cellspacing="0" class="docs_table"> 
 	<thead> 
@@ -318,7 +318,7 @@ This displays the reCAPTCHA error. If obeys the form&#39;s error parameters so i
 
 When an entry form is submitted and processed successfully, you can set the form to send an email.
 
-The entry form email notification feature hooks into PyroCMS native email template module, so to get started, you'll need to go to <strong>Design &rarr; Email Templates</strong> and create a new template. Aside from all the normal variables and functions you can access in a layout, the following special email variables are available to you:
+The entry form email notification feature hooks into NitroCMS native email template module, so to get started, you'll need to go to <strong>Design &rarr; Email Templates</strong> and create a new template. Aside from all the normal variables and functions you can access in a layout, the following special email variables are available to you:
 
 <table cellpadding="0" cellspacing="0" class="docs_table"> 
 	<thead> 

@@ -1,6 +1,6 @@
 # Upgrading 1.3 to 2.0
 
-The following instructions are for users upgrading from PyroCMS 1.3 to PyroCMS 2.0.
+The following instructions are for users upgrading from NitroCMS 1.3 to NitroCMS 2.0.
 
 </div>
 <div class="doc_content">
@@ -28,9 +28,9 @@ If you had any changes in your index.php (e.g. customised locations of system, a
 
 If you have any custom addons, please be careful you do not delete them.
 
-**Upgrading PyroCMS Professional:** If you had previously purchased the [Newsletters](http://www.pyrocms.com/store/details/newsletters) module by Jerel Unruh or the [Streams](http://parse19.com/pyrostreams) module by Adam Fairholm then please delete them as they are now included in the system folder of PyroCMS Professional 2.0. 
+**Upgrading NitroCMS Professional:** If you had previously purchased the [Newsletters](http://www.pyrocms.com/store/details/newsletters) module by Jerel Unruh or the [Streams](http://parse19.com/pyrostreams) module by Adam Fairholm then please delete them as they are now included in the system folder of NitroCMS Professional 2.0. 
 
-The [Galleries](http://www.pyrocms.com/store/details/galleries) module is no longer bundled with PyroCMS but you may download it from the [store](http://www.pyrocms.com/store/details/galleries) or from [its repository on GitHub](https://github.com/pyrocms/galleries). Simply place it back into the addons folder and it will continue operating as usual.  (Note: at the time of writing, Galleries are not compatible with PyroCMS 2.1)
+The [Galleries](http://www.pyrocms.com/store/details/galleries) module is no longer bundled with NitroCMS but you may download it from the [store](http://www.pyrocms.com/store/details/galleries) or from [its repository on GitHub](https://github.com/pyrocms/galleries). Simply place it back into the addons folder and it will continue operating as usual.  (Note: at the time of writing, Galleries are not compatible with NitroCMS 2.1)
 
 ## Step 3: Re-apply database config
 
@@ -48,7 +48,7 @@ to:
 
     SetEnv PYRO_ENV production
 
-This will let PyroCMS know which database connection group to use.
+This will let NitroCMS know which database connection group to use.
 
 ## Step 5: Make the following folders writable:
 
@@ -67,7 +67,7 @@ This is not a list of all of the new features of Lex, it is simply a guide for u
 
 ### New Tags
 
-_For a comprehensive look at the new PyroCMS tag system, see the {{ link title="PyroCMS tag guide" uri="concepts/pyrocms-tags" }}._
+_For a comprehensive look at the new NitroCMS tag system, see the {{ link title="NitroCMS tag guide" uri="concepts/pyrocms-tags" }}._
 
 The delimiters in Lex are two (2) braces "{{ }}", not one (1) "{ }".  You will need to change all of your tags to use the new style.
 
@@ -111,4 +111,4 @@ Using a callback tag in a conditional is simple.  Use it just like any other var
 
 ## Step 7: Upgrade your modules
 
-Check out the [Add-on Store](http://www.pyrocms.com/store) to see if the modules you use have been upgraded to be compatible with PyroCMS 2.0.
+Check out the [Add-on Store](http://www.pyrocms.com/store) to see if the modules you use have been upgraded to be compatible with NitroCMS 2.0.

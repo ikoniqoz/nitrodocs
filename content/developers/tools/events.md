@@ -1,20 +1,20 @@
 # Events
 
-Events allow you add your own functionality to the PyroCMS core by hooking into preset points in the code called triggers. There are several triggers already in place in the PyroCMS core that allow you to do things within your code when other parts of PyroCMS run.
+Events allow you add your own functionality to the NitroCMS core by hooking into preset points in the code called triggers. There are several triggers already in place in the NitroCMS core that allow you to do things within your code when other parts of NitroCMS run.
 
 ## Using Events in your modules
 
-Create an events.php file in the root of your module (it will be autoloaded when PyroCMS starts to run). Below is an example file from a module named "Sample":
+Create an events.php file in the root of your module (it will be autoloaded when NitroCMS starts to run). Below is an example file from a module named "Sample":
 
 <script src="https://gist.github.com/1373989.js?file=gistfile1.aw"></script>
 
-In the above example, the **Events\_Sample** registers the function 'run' to run when the **public\_controller** trigger is called in PyroCMS.
+In the above example, the **Events\_Sample** registers the function 'run' to run when the **public\_controller** trigger is called in NitroCMS.
 
 It is important to note that some triggers pass data that you can use in your function as well.
 
-## PyroCMS Triggers
+## NitroCMS Triggers
 
-PyroCMS includes the following event triggers:
+NitroCMS includes the following event triggers:
 
 ### System Triggers (In places other than modules)
 

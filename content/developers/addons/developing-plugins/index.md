@@ -1,10 +1,10 @@
 # Developing Plugins
 
-One of the central PyroCMS functionality concepts is tags. If you are familiar with PyroCMS you have definitely seem them before. Here is an example of a simple tag that returns the current URL:
+One of the central NitroCMS functionality concepts is tags. If you are familiar with NitroCMS you have definitely seem them before. Here is an example of a simple tag that returns the current URL:
 
 	{{ noparse }}{{ url:current }}{{ /noparse }}
 
-The code behind tags like these is called a plugin. Plugins are special PHP files that have the ability to be called via PyroCMS tags, and can do things like grab tag parameters. They are simple to write and make incorporating complex functionality into PyroCMS layouts clean and organized.
+The code behind tags like these is called a plugin. Plugins are special PHP files that have the ability to be called via NitroCMS tags, and can do things like grab tag parameters. They are simple to write and make incorporating complex functionality into NitroCMS layouts clean and organized.
 
 ## Modular vs Standalone Plugins
 
@@ -22,9 +22,9 @@ This is the Session plugin which can be found in <dfn>system/cms/plugins/session
 	 *
 	 * Read and write session data
 	 *
-	 * @package		PyroCMS
-	 * @author		PyroCMS Dev Team
-	 * @copyright	Copyright (c) 2008 - 2012, PyroCMS
+	 * @package		NitroCMS
+	 * @author		NitroCMS Dev Team
+	 * @copyright	Copyright (c) 2008 - 2012, NitroCMS
 	 *
 	 */
 	class Plugin_Session extends Plugin
@@ -148,7 +148,7 @@ It is possible to even send variables that are associative arrays and these can 
 			'author_id'		=> 1,
 			'author_name'	=> 'Phil Sturgeon',
 			'categories'	=> array(
-						array('category_name' => 'PyroCMS'),
+						array('category_name' => 'NitroCMS'),
 						array('category_name' => 'Phil Sturgeon')
 					)
 		),
@@ -157,7 +157,7 @@ It is possible to even send variables that are associative arrays and these can 
 			'author_id'		=> 2,
 			'author_name'	=> 'Jerel Unruh',
 			'categories'	=> array(
-						array('category_name' => 'PyroCMS'),
+						array('category_name' => 'NitroCMS'),
 						array('category_name' => 'Jerel Unruh')
 					)
 		)

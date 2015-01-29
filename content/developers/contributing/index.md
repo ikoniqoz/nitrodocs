@@ -1,1 +1,1 @@
-# Contributing to PyroCMS
+# Contributing to NitroCMS

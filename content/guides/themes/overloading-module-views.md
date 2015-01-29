@@ -1,6 +1,6 @@
 # Overloading Module Views
 
-PyroCMS is written intended to be styled mainly by CSS, but as designers you want full control over how your site looks. We understand that, so PyroCMS will let you replace any module view with a view inside your theme. Let&#39;s say you want to replace the main blog listing page. Simply copy:
+NitroCMS is written intended to be styled mainly by CSS, but as designers you want full control over how your site looks. We understand that, so NitroCMS will let you replace any module view with a view inside your theme. Let&#39;s say you want to replace the main blog listing page. Simply copy:
 
 	system/cms/modules/blog/views/posts.php
 
@@ -12,7 +12,7 @@ If you wanted to overload an admin view you would do it like so:
 
     addons/[site-ref]/themes/<theme-name>/views/admin/modules/blog/admin/form.php
 
-Now you can edit that view however you like and upgrade PyroCMS knowing your customized views are safe.</p>
+Now you can edit that view however you like and upgrade NitroCMS knowing your customized views are safe.</p>
 
 ## Syntax in overloaded views
 

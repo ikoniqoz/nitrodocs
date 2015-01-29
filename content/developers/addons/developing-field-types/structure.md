@@ -224,7 +224,7 @@ In your language file:
 
 ## Validation
  
-Validation takes several forms for PyroCMS field types.
+Validation takes several forms for NitroCMS field types.
 
 * **Assignment-added validation**. This takes the form of **required** and **unique**, which are determined by the field assignment.
 * **Standard field type validation**. This is the standard validation rules in the actual field type (see below).
@@ -297,7 +297,7 @@ Remember, you can still access all the <var>$_POST</var> variables, so if you ne
 
 Often times you need to use additional assets in your field type. This could be a CSS file or a view. PyroStreams is set up to allow you to pull in these files without having to figure out where your field type is in the file system.
 
-If you need to add CSS or Javascript on the back end of PyroCMS, you can put them into a <strong>css</strong> or <strong>js</strong> folder in the field type, and add them by adding a function called <strong>event()</strong>:
+If you need to add CSS or Javascript on the back end of NitroCMS, you can put them into a <strong>css</strong> or <strong>js</strong> folder in the field type, and add them by adding a function called <strong>event()</strong>:
 
     public function event()
     {

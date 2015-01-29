@@ -5,7 +5,7 @@
     
 	<title>{{ variables:get_var name="title" }} | {{ site_title }}</title>
 
-	<meta name="author" content="PyroCMS Dev Team">
+	<meta name="author" content="NitroCMS Dev Team">
 
 	<base href="{{ base_url }}" /> 
 
@@ -47,8 +47,8 @@
 
       <div id="header_inner">
 
-          <h3><a href=""><img src="assets/img/logo.png" alt="PyroCMS" /></a></h3>
-          <div class="breadcrumbs"><strong>PyroCMS {{ variables:get_var name="pyrocms_version" }}</strong> | {{ breadcrumbs:crumbs }}</div>
+          <h3><a href=""><img src="assets/img/logo.png" alt="NitroCMS" /></a></h3>
+          <div class="breadcrumbs"><strong>NitroCMS {{ variables:get_var name="nitrocms_version" }}</strong> | {{ breadcrumbs:crumbs }}</div>
 
 
       </div>
@@ -100,10 +100,6 @@
   {{ nav:auto start="developers" }}
 {{ endif }}
 
-<p><strong>{{ link uri="pro" title="PyroCMS Pro" }}</strong></p>
-{{ if segment_1 == 'pro' }}
-  {{ nav:auto start="pro" }}
-{{ endif }}
 
 <p><strong>{{ link uri="reference" title="Reference" }}</strong></p>
 {{ if segment_1 == 'reference'}}

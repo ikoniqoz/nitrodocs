@@ -58,7 +58,7 @@ Choose <samp>Staff</samp>, and you'll get your new page form, but under our <sam
 
 {{ asset:img file="docs/gs/custfields.png" alt="Name Page Type" class="doc_image" }}
 
-Create your staff page, and then visit it on the front end. PyroCMS will use the layout we set in our page type to display our custom fields the way we want to.
+Create your staff page, and then visit it on the front end. NitroCMS will use the layout we set in our page type to display our custom fields the way we want to.
 
 This is a great way to allow clients to create pages themselves while making sure that you have control over the markup and display of the content. You can add as many fields as you like, and they range from simple fields like text and textareas, to images, dates, and more!
 

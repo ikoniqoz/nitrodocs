@@ -1,6 +1,6 @@
 # Streams API CP Driver
 
-The CP driver has functions that take care of common PyroCMS control panel routines. Since we know the whole data structure, including validation, we bypass a lot of annoying and repetitive coding.
+The CP driver has functions that take care of common NitroCMS control panel routines. Since we know the whole data structure, including validation, we bypass a lot of annoying and repetitive coding.
 
 You can call the entries driver like this:
 
@@ -236,7 +236,7 @@ This function returns the form string unless **$view_override** is set to true, 
 		<td>required</td>
 		<td>string</td>
 		<td>&lt;span&gt;*&lt;/span&gt;</td>
-		<td>This defaults to the standard required marker for the PyroCMS CP, so it shouldn't usually be changed, but if you need to you can pass a new value here.</td>
+		<td>This defaults to the standard required marker for the NitroCMS CP, so it shouldn't usually be changed, but if you need to you can pass a new value here.</td>
 	</tr>
 	<tr> 
 		<td>title</td>
@@ -384,7 +384,7 @@ This allows you to easily create a form that users can use to add new fields to 
 		<td>required</td>
 		<td>string</td>
 		<td>&lt;span&gt;*&lt;/span&gt;</td>
-		<td>This defaults to the standard required marker for the PyroCMS CP, so it shouldn't usually be changed, but if you need to you can pass a new value here.</td>
+		<td>This defaults to the standard required marker for the NitroCMS CP, so it shouldn't usually be changed, but if you need to you can pass a new value here.</td>
 	</tr>
 	<tr> 
 		<td>title</td>

@@ -5,9 +5,9 @@ Any version of the 2.0 or the 2.1 branch can be upgraded to any version of the 2
 </div>
 <div class="doc_content">
 
-## Download the latest copy of PyroCMS
+## Download the latest copy of NitroCMS
 
-You can download the latest version of PyroCMS 2.1.x [here](https://github.com/pyrocms/pyrocms/zipball/2.1/master).
+You can download the latest version of NitroCMS 2.1.x [here](https://github.com/pyrocms/pyrocms/zipball/2.1/master).
 
 If you are using git, you can get the latest copy by running:
 
@@ -55,4 +55,4 @@ may need to fiddle with your CSS a little.
 
 ## Rejoice
 
-That's it! All database changes are handled automatically (by 'migrations') the next time you load up the control panel. You are now running the latest, shiniest version of PyroCMS!
+That's it! All database changes are handled automatically (by 'migrations') the next time you load up the control panel. You are now running the latest, shiniest version of NitroCMS!

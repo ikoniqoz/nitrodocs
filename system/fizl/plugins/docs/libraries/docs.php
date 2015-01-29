@@ -3,7 +3,7 @@
 /**
  * Docs Plugin
  *
- * For the PyroCMS Docs
+ * For the NitroCMS Docs
  *
  * @package		Fizl
  * @author		Adam Fairholm (@adamfairholm)

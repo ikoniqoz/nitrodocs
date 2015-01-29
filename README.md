@@ -1,16 +1,16 @@
-# PyroCMS Documentation v2.2.0
+# NitroCMS Documentation v1.0.0
 
-This repo is home to the PyroCMS documentation source. 
+This repo is home to the NitroCMS documentation source. 
 
-* [PyroCMS Documentation](http://docs.pyrocms.com/)
+* [NitroCMS Documentation](http://docs.nitrocart.net/)
 
 ## Doc Versions
 
-The documentation tags mirror the x.y release tags of PyroCMS, so the v2.2.0 documentation is on branch `2.2`, and so on. Once a new version of PyroCMS is in development, a new branch of documentation will be available on this repo. Please make sure when you are contributing a documentation change you are using the appropriate branch.
+The documentation tags mirror the x.y release tags of NitroCMS, so the v2.2.0 documentation is on branch `2.2`, and so on. Once a new version of NitroCMS is in development, a new branch of documentation will be available on this repo. Please make sure when you are contributing a documentation change you are using the appropriate branch.
 
 ## Contributing to the Docs
 
-To contribute to the PyroCMS docs, fork this repo to your local environment. The PyroCMS docs run off of a simple flat-file based CMS written in CodeIgniter. It doesn't need a database to run, so you should be able to load up the docs easily.
+To contribute to the NitroCMS docs, fork this repo to your local environment. The NitroCMS docs run off of a simple flat-file based CMS written in CodeIgniter. It doesn't need a database to run, so you should be able to load up the docs easily.
 
 The actual doc files are contained in the **content** folder, and the folder structure mirrors the URL structure. Each page is a markdown file which either has a matching URI name, such as **constants-and-globals.md**, or in a folder like **page-subsection/index.md**. For instance, the **Core Plugins** file is at **plugins/index.md**.
 
@@ -51,7 +51,6 @@ The docs are organized into multiple categorized sections:
 * Core Widgets
 * Core Field Types
 * Developer Docs
-* PyroCMS Pro
 * Reference
 
-If you are creating a new page, it should fit reasonably within one of the existing sections. If you think we need a new section, or want to suggest some organizational changes, please email [adam@pyrocms.com](mailto:adam@pyrocms.com).
+If you are creating a new page, it should fit reasonably within one of the existing sections. If you think we need a new section, or want to suggest some organizational changes, please email [info@nitrocart.net](mailto:info@nitrocart.net).

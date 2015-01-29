@@ -73,7 +73,7 @@ Returns:
 
 Displays a flashdata message.
 
-PyroCMS has standardized messages to belong to one of three categories:
+NitroCMS has standardized messages to belong to one of three categories:
 
 * success
 * notice

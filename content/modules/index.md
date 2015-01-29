@@ -1,8 +1,8 @@
 # Core Modules
 
-Below are the core modules that come with the default install of PyroCMS.
+Below are the core modules that come with the default install of NitroCMS.
 
-Note that **Streams** comes with {{ link ur="pro" title="PyroCMS Pro" }} or can be purchased separately as a module.
+Note that **Streams** comes with {{ link ur="pro" title="NitroCMS Pro" }} or can be purchased separately as a module.
 
 </div>
 <div class="doc_content">

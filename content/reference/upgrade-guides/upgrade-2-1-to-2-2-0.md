@@ -5,9 +5,9 @@ Any version of 2.1.x can be upgraded to 2.2.0 by following these instructions.
 </div>
 <div class="doc_content">
 
-## Step 1: Download PyroCMS v2.2.0
+## Step 1: Download NitroCMS v2.2.0
 
-You can download PyroCMS v2.2.0 [from GitHub](https://github.com/pyrocms/pyrocms/zipball/v2.2.0).
+You can download NitroCMS v2.2.0 [from GitHub](https://github.com/pyrocms/pyrocms/zipball/v2.2.0).
 
 If you are using git, you can get the latest copy by running:
 
@@ -124,9 +124,9 @@ or just an arbitrary string like "Chicken" to help identify multiple types of da
 
 ## Update Blog Syntax
 
-If you are overloading the blog module, be aware that the blog now uses PyroCMS tags instead of straight PHP, and your overloaded views will need to be updated.
+If you are overloading the blog module, be aware that the blog now uses NitroCMS tags instead of straight PHP, and your overloaded views will need to be updated.
 
-You can find the new views at <dfn>system/cms/modules/blog/view/</dfn>. The files that use PyroCMS tags now are:
+You can find the new views at <dfn>system/cms/modules/blog/view/</dfn>. The files that use NitroCMS tags now are:
 
 * archive.php
 * posts.php
@@ -136,7 +136,7 @@ rss.php remains as it was in previous versions.
 
 ## Rejoice
 
-Done! You are now running the latest, shiniest version of PyroCMS!
+Done! You are now running the latest, shiniest version of NitroCMS!
 
 This upgrade was bigger than usual - especially for people with custom addons - but it's because we added a lot of awesome 
 stuff.

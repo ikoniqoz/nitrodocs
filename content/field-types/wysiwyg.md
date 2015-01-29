@@ -1,6 +1,6 @@
 # WYSIWYG Field Type
 
-The WYSIWYG field type creates a PyroCMS WYSIWYG text editor using the CKEditor.
+The WYSIWYG field type creates a NitroCMS WYSIWYG text editor using the CKEditor.
 
 </div>
 <div class="doc_content">
@@ -27,7 +27,7 @@ The WYSIWYG field type creates a PyroCMS WYSIWYG text editor using the CKEditor.
 		<tr> 
 			<td>Allow Tags</td> 
 			<td>No</td> 
-			<td>If set to <samp>Yes</samp> any PyroCMS tags in the WYSIWYG content will be parsed before output. If set to <samp>No</samp> any PyroCMS tags will be converted to entities before output.</td> 
+			<td>If set to <samp>Yes</samp> any NitroCMS tags in the WYSIWYG content will be parsed before output. If set to <samp>No</samp> any NitroCMS tags will be converted to entities before output.</td> 
 		</tr> 
 </tbody> 
 </table> 

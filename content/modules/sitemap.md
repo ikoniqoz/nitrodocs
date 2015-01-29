@@ -6,7 +6,7 @@ The sitemap is located at:
 
 	/sitemap.xml
 
-It will map not only your site pages (via the Pages module), but also modules that support the PyroCMS sitemap protocol, such as the Blogs module.
+It will map not only your site pages (via the Pages module), but also modules that support the NitroCMS sitemap protocol, such as the Blogs module.
 
 ## Example
 

@@ -1,6 +1,6 @@
 # Constants and Globals
 
-A number of constants and properties are made available across PyroCMS.
+A number of constants and properties are made available across NitroCMS.
 
 ## PHP Constants
 

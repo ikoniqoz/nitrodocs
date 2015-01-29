@@ -1,6 +1,6 @@
 # The Blog Module
 
-The blog module allows you to easily setup a blog at www.yoursite.com/blog. It supports features like custom post fields, post previews, draft posts, blog categories, blog tags, blog keywords, and blog comment expiration. This section discusses how to create and manage a blog on PyroCMS.
+The blog module allows you to easily setup a blog at www.yoursite.com/blog. It supports features like custom post fields, post previews, draft posts, blog categories, blog tags, blog keywords, and blog comment expiration. This section discusses how to create and manage a blog on NitroCMS.
 
 {{docs:anchormenu}}
 	Blogging Basics
@@ -89,7 +89,7 @@ Under the <samp>Options</samp> tab, the following fields are available:
 	<tr>
 		<td>Comments Enabled</td>
 		<td>Three Months</td>
-		<td>Whether or not to enable comments on this post. This allows you to set a timeframe that you'd like users to submit new comments within. This ranges from <samp>One Date</samp> to <samp>Three Months</samp>. You can also set this to <samp>No</samp> to turn comments off for this post, as well as <samp>Always</samp> to leave comments on indefinitely. PyroCMS calculates whether or not posts should be shown or not based on your post date value.</td>
+		<td>Whether or not to enable comments on this post. This allows you to set a timeframe that you'd like users to submit new comments within. This ranges from <samp>One Date</samp> to <samp>Three Months</samp>. You can also set this to <samp>No</samp> to turn comments off for this post, as well as <samp>Always</samp> to leave comments on indefinitely. NitroCMS calculates whether or not posts should be shown or not based on your post date value.</td>
 	</tr>
 </table>
 
@@ -97,15 +97,15 @@ Under the <samp>Options</samp> tab, the following fields are available:
 
 Blogs sometimes need extra functionality beyond just the basic blog post body and title. That's why you can extend the functionality of the blog module but adding custom blog fields.
 
-To add new fields, click on <samp>Custom Fields</samp> on the module sub navigation. By default, PyroCMS adds an <samp>Introduction</samp> {{ link title="WYSIWYG" uri="field-types/wysiwyg" }} field. If you don't need an introduction field, you can simply remove this.
+To add new fields, click on <samp>Custom Fields</samp> on the module sub navigation. By default, NitroCMS adds an <samp>Introduction</samp> {{ link title="WYSIWYG" uri="field-types/wysiwyg" }} field. If you don't need an introduction field, you can simply remove this.
 
 You can use any of your {{ link title="core" uri="field-types" }} and [add-on](http://pyrocms.com/store) field types as blog fields. After adding them, you'll need to display them by {{ link title="overloading" uri="guides/themes/overloading-module-views" }} the basic blog templates.
 
 ## Blog Previews
 
-Blog posts need a way to represent themselves on things like post lists/archives, and RSS feeds. When displaying posts, PyroCMS first looks for a custom field with a slug called <samp>intro</samp>. If it can't find that, it will use the entire blog post body.
+Blog posts need a way to represent themselves on things like post lists/archives, and RSS feeds. When displaying posts, NitroCMS first looks for a custom field with a slug called <samp>intro</samp>. If it can't find that, it will use the entire blog post body.
 
-You can always override this in your overloaded blog views in your theme, but by default, PyroCMS will use the logic above.
+You can always override this in your overloaded blog views in your theme, but by default, NitroCMS will use the logic above.
 
 ## URLs
 
@@ -162,7 +162,7 @@ The views available for overloading are:
 	</tr>
 </table>
 
-The <samp>archive</samp>, <samp>posts</samp>, and <samp>view</samp> views all use {{ link title="PyroCMS tags" uri="guides/pyrocms-tags" }}.
+The <samp>archive</samp>, <samp>posts</samp>, and <samp>view</samp> views all use {{ link title="NitroCMS tags" uri="guides/pyrocms-tags" }}.
 
 The following tags are available to use by default in the post tags.
 
@@ -206,7 +206,7 @@ The blog post body.
 
 #### {{ noparse }}{{ preview }}{{ /noparse }}
 
-An automatic preview of blog post. PyroCMS first looks for a custom field with a slug called <samp>intro</samp>. If it can't find that, it will <samp>{{ noparse }}{{ body }}{{ /noparse }}</samp>.
+An automatic preview of blog post. NitroCMS first looks for a custom field with a slug called <samp>intro</samp>. If it can't find that, it will <samp>{{ noparse }}{{ body }}{{ /noparse }}</samp>.
 
 #### {{ noparse }}{{ created_on }}{{ /noparse }}
 

@@ -17,8 +17,5 @@ $config['fizl_date_format']		= 'Y-m-d H:i:s';
  * them in your templates
  */
  
-// The current PyroCMS version
-$config['pyrocms_version']		= '2.2';
-
 // The current NitroCMS version
-$config['nitrocms_version']		= '2.2';
+$config['nitrocms_version']		= '1.0';

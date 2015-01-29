@@ -2,11 +2,11 @@
 
 # Core Field Types
 
-PyroCMS comes with a variety of field types in the Streams Core module that you can count on being available in PyroCMS 2.1 and above for your module.
+NitroCMS comes with a variety of field types in the Streams Core module that you can count on being available in NitroCMS 2.1 and above for your module.
 
 Additionally, you can develop your own field types and add them to the addons folders inside a "field_type" folder. The Streams Type library will automatically look for them there.
 
-Below is a reference of all the core PyroCMS field types.
+Below is a reference of all the core NitroCMS field types.
 
 * {{ docs:id_link title="Choice" }}
 * {{ docs:id_link title="Country" }}
@@ -246,7 +246,7 @@ The file field type allows you to upload and link to a file.
 	</tr>
 	<tr>
 		<td>folder</td>
-		<td>Interfaces with the PyroCMS files module. Create an upload folder in the files module and select it here using the folder&#39;s id.</td>
+		<td>Interfaces with the NitroCMS files module. Create an upload folder in the files module and select it here using the folder&#39;s id.</td>
 	</tr>
         <tr>
 		<td>allowed_types</td>
@@ -284,7 +284,7 @@ The file field type allows you to upload and link to a file.
 	</tr>
 	<tr>
 		<td>folder</td>
-		<td>Interfaces with the PyroCMS files module. Create an upload folder in the files module and select it here using the folder&#39;s id.</td>
+		<td>Interfaces with the NitroCMS files module. Create an upload folder in the files module and select it here using the folder&#39;s id.</td>
 	</tr>
         <tr>
 		<td>resize_width</td>
@@ -626,7 +626,7 @@ The user field type allows you to choose and return data for a user.
 
 ## WYSIWYG
 
-The WYSIWYG field creates a PyroCMS WYSIWYG text editor.
+The WYSIWYG field creates a NitroCMS WYSIWYG text editor.
 
 ### Type Info
 

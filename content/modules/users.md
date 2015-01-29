@@ -20,7 +20,7 @@ To register a new user on your site, click on **+ Add User** and fill out the us
 
 ## Managing User Groups and Permissions
 
-By default, PyroCMS comes with two user groups:
+By default, NitroCMS comes with two user groups:
 
 * **Administrators** - These are admins of your site and have access to everything on the back end.
 * **Users** - These are basic users of your site and only have access to the front end.
@@ -37,7 +37,7 @@ Once you have created a new group, you can go to **Users &rarr; Permissions** an
 
 ## Customizing Profile Fields
 
-PyroCMS comes with a preset slate of user fields, but these can be easily changed. To manage your user profile fields, go to **Users &rarr; Manage Users** and click on the **Profile Fields** section menu.
+NitroCMS comes with a preset slate of user fields, but these can be easily changed. To manage your user profile fields, go to **Users &rarr; Manage Users** and click on the **Profile Fields** section menu.
 
 {{ asset:img file="docs/users/menu.png" alt="Profile Fields Section Menu" class="doc_image" }}
 

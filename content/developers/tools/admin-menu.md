@@ -1,6 +1,6 @@
 # Admin Menu
 
-In PyroCMS, the admin menu can be manipulated by modules, so your module can have its own admin menu, or even multiple admin items in different menus.
+In NitroCMS, the admin menu can be manipulated by modules, so your module can have its own admin menu, or even multiple admin items in different menus.
 
 * {{ docs:id_link title="Standard Admin Menu" }}
 * {{ docs:id_link title="Anatomy of the Admin Menu" }}
@@ -13,7 +13,7 @@ In PyroCMS, the admin menu can be manipulated by modules, so your module can hav
 
 By default, all modules can have a single admin link in a preset admin menu section. See the {{ link title="module dev docs" link="" }} for more information. Basically, though, your module details.php file contains information about where your module will sit in the admin menu:
 
-In the array that the <samp>info()</samp> function returns, you indicate that PyroCMS should create an admin link by adding this:
+In the array that the <samp>info()</samp> function returns, you indicate that NitroCMS should create an admin link by adding this:
 
     'backend' => true,
     'menu' => 'content'
@@ -50,7 +50,7 @@ As you can see, the keys are either language keys, or plain strings (the menu pa
 
 ## Admin Menu Customization
 
-Your **details.php** file in your module loads on every page load in the admin, so it's a great place to manipulate the menu. PyroCMS will look for a function called <samp>admin_menu</samp> and it takes a single parameter by reference, <var>&$menu</var>. It's important that you take this variable by reference, otherwise you will not be manipulating the actual menu array.
+Your **details.php** file in your module loads on every page load in the admin, so it's a great place to manipulate the menu. NitroCMS will look for a function called <samp>admin_menu</samp> and it takes a single parameter by reference, <var>&$menu</var>. It's important that you take this variable by reference, otherwise you will not be manipulating the actual menu array.
 
 Here's a sample <samp>admin_menu</samp> function from the Add-ons module:
 

@@ -2,7 +2,7 @@
 
 The pages module is a simple but powerful way to manage static content on your site. Page layouts can be managed and widgets embedded without ever editing the template files.
 
-* {{ docs:id_link title="How Pages Work in PyroCMS" }}
+* {{ docs:id_link title="How Pages Work in NitroCMS" }}
 * {{ docs:id_link title="The Page Tree" }}
 * {{ docs:id_link title="Re-Ordering Pages" }}
 * {{ docs:id_link title="Modifying Pages" }}
@@ -13,17 +13,17 @@ The pages module is a simple but powerful way to manage static content on your s
 </div>
 <div class="doc_content">
 
-## How Pages Work in PyroCMS
+## How Pages Work in NitroCMS
 
 Every page on a website has a purpose. For instance, a page's purpose could be to display a member of a company's staff. It could be to display a product. It could be a combination of things. Every page has some common elements as well. For instance, a page will always have metadata, privacy settings, etc.
 
-PyroCMS's pages module let's you take all of this into account when managing pages on your site. Each page has common fields (like metadata), but you can also create data structures that allow you to enter only the data you need for that page. We call these **page types**. For instance, for your staff member page you can create a <samp>Staff Member</samp> page type and add a <samp>Bio</samp> and <samp>Headshot Image</samp> field. You could create a <samp>Product</samp> page type with all sorts of fields like product description, price, etc.
+NitroCMS's pages module let's you take all of this into account when managing pages on your site. Each page has common fields (like metadata), but you can also create data structures that allow you to enter only the data you need for that page. We call these **page types**. For instance, for your staff member page you can create a <samp>Staff Member</samp> page type and add a <samp>Bio</samp> and <samp>Headshot Image</samp> field. You could create a <samp>Product</samp> page type with all sorts of fields like product description, price, etc.
 
 Page types even house how those fields are displayed in the page type layout field, so you can define your fields and also define how they should be displayed on a page.
 
 ## The Page Tree
 
-The page tree is a visual, heirarchical overview of all the pages on your site. Module URIs don't show up here (see {{ link title="PyroCMS URLs" uri="guides/pyrocms-urls" }} for an overview of how URLs work in PyroCMS), just pages.
+The page tree is a visual, heirarchical overview of all the pages on your site. Module URIs don't show up here (see {{ link title="NitroCMS URLs" uri="guides/pyrocms-urls" }} for an overview of how URLs work in NitroCMS), just pages.
 
 You can have any combination of page types in your page tree as well - they'll all show up in your page tree.
 
@@ -66,7 +66,7 @@ The following options are available:
 
 ## Default Pages
 
-You'll notice that on a default install of PyroCMS there are some pages already there in the tree:
+You'll notice that on a default install of NitroCMS there are some pages already there in the tree:
 
 <table>
 	<tr>
@@ -147,11 +147,11 @@ The meta section allows you to control the meta data of your page. This is the d
 
 ### CSS
 
-The CSS tab allows you to add extra CSS that will be added to your page (inline). PyroCMS will wrap the appropriate `<style>` tags around the CSS.
+The CSS tab allows you to add extra CSS that will be added to your page (inline). NitroCMS will wrap the appropriate `<style>` tags around the CSS.
 
 ### Script
 
-You may place javascript here that you would like appended to the `<head>` of the page. PyroCMS will wrap the appropriate `<script>` tags around the javascript.
+You may place javascript here that you would like appended to the `<head>` of the page. NitroCMS will wrap the appropriate `<script>` tags around the javascript.
 
 ### Options
 
@@ -178,6 +178,6 @@ You may place javascript here that you would like appended to the `<head>` of th
 	</tr>
 	<tr>
 		<td>Require an exact uri match</td>
-		<td>The "Require an exact uri match" field is a clever little tool that allows you to pass parameters in the url. By default PyroCMS looks for a page with the slug of "acme-widgets" that is the child of "products" when you visit products/acme-widgets. By un-checking this box in the Products page you are telling PyroCMS that it is now okay if there isn't a page named Acme Widgets. It will now load Products and 'acme-widgets' will just be a parameter. This makes it easy to pass parameters to embedded tags. An example using the Streams add-on to display the 'acme-widgets' stream on the Products page.</td>
+		<td>The "Require an exact uri match" field is a clever little tool that allows you to pass parameters in the url. By default NitroCMS looks for a page with the slug of "acme-widgets" that is the child of "products" when you visit products/acme-widgets. By un-checking this box in the Products page you are telling NitroCMS that it is now okay if there isn't a page named Acme Widgets. It will now load Products and 'acme-widgets' will just be a parameter. This makes it easy to pass parameters to embedded tags. An example using the Streams add-on to display the 'acme-widgets' stream on the Products page.</td>
 	</tr>
 </table>

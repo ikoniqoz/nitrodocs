@@ -28,7 +28,7 @@ For added flexibility, you can make use of as many layout files as you'd like. W
 
 ## Mobile Layouts
 
-A nice feature of PyroCMS is the ability to easily display separate layouts for mobile.
+A nice feature of NitroCMS is the ability to easily display separate layouts for mobile.
 
 To take advantage of this feature, move your layouts into a folder called "web" inside your views folder, so your default layout will be in:
 
@@ -40,6 +40,6 @@ When a user accesses your browser from a web browser, these layouts will be used
 
 Same for all your other layout files, they will load the mobile version if you browse to the page with anything CodeIgniter thinks is a mobile phone.
 
-<strong>Note:</strong> PyroCMS does not consider an iPad a mobile device, so it will not load your mobile layouts if the user is accessing your site via an iPad. Note also that new PyroCMS default themes use 
+<strong>Note:</strong> NitroCMS does not consider an iPad a mobile device, so it will not load your mobile layouts if the user is accessing your site via an iPad. Note also that new NitroCMS default themes use 
 [responsive design](http://en.wikipedia.org/wiki/Responsive_Web_Design) (try resizing this page in your browser.)
 

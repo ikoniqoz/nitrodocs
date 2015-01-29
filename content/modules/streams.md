@@ -10,11 +10,11 @@
 
 Many sites require data that is not in a page format. For instance – dates of live shows, lists of bands, or lists of pets. Each of these requires a data structure and a way to create, read, update, and delete entries.
 
-In PyroStreams, each "list" of data is known as a "stream". So, a list of bands would be a stream. A list of live shows would be a stream. PyroStreams gives you the tools to create and manage those streams on the back end, and then gives you the tools to display that data on your website easily via PyroCMS page templates.
+In PyroStreams, each "list" of data is known as a "stream". So, a list of bands would be a stream. A list of live shows would be a stream. PyroStreams gives you the tools to create and manage those streams on the back end, and then gives you the tools to display that data on your website easily via NitroCMS page templates.
 
 ## Where to Get Streams
 
-The Streams module is part of [PyroCMS Pro](https://www.pyrocms.com/store/details/pyrocms_professional) and is also available as a [standalone module](https://www.pyrocms.com/store/details/pyrostreams). Streams Core and the Streams API is available in the Community version of PyroCMS. For a primer on the different parts of streams, see the {{ link title="streams concept page" uri="concepts/streams" }}.
+The Streams module is part of [NitroCMS Pro](https://www.pyrocms.com/store/details/pyrocms_professional) and is also available as a [standalone module](https://www.pyrocms.com/store/details/pyrostreams). Streams Core and the Streams API is available in the Community version of NitroCMS. For a primer on the different parts of streams, see the {{ link title="streams concept page" uri="concepts/streams" }}.
 
 ## Creating a Stream
 
@@ -35,7 +35,7 @@ To create a new stream, click **New Stream**. You'll be prompted to fill in four
 	</tr>
 	<tr>
 		<td>Stream Prefix</td>
-		<td>This is an optional prefix that will be used in the database if there is already a table with the name you'd like. For instance, if you want to create a stream with a slug of 'files', there is already a files table used by PyroCMS. You can add a prefix such as 'my_', and the table name will be my_files. You can still refer to your stream as 'files' in plugins and other places.</td>
+		<td>This is an optional prefix that will be used in the database if there is already a table with the name you'd like. For instance, if you want to create a stream with a slug of 'files', there is already a files table used by NitroCMS. You can add a prefix such as 'my_', and the table name will be my_files. You can still refer to your stream as 'files' in plugins and other places.</td>
 	</tr>
 	<tr>
 		<td>About this Stream</td>
@@ -53,7 +53,7 @@ In PyroStreams, fields are like columns in a spreadsheet. Only in PyroStreams, t
 
 Field types range in functionality from the extremely simple (text field) to the extremely complex (multiple relationships). They allow you to create the functionality you need to build data structures.
 
-Like all streams-enabled modules, Streams usses the group of core field types that comes with PyroCMS, as well as any additional installed field types.
+Like all streams-enabled modules, Streams usses the group of core field types that comes with NitroCMS, as well as any additional installed field types.
 
 To create a field, go to the "Fields" section at the top of the page. There you'll be prompted to add a new field if you haven't done so already.
 

@@ -32,7 +32,7 @@
 - Fixed [#3115](https://github.com/pyrocms/pyrocms/issues/3115): Fix for breadcrumb logic loading and - 'executing' all the parent pages
 - Fixed [#3118](https://github.com/pyrocms/pyrocms/issues/3118): Removed two erroneous assignments by reference
 - Fixed [#3276](https://github.com/pyrocms/pyrocms/issues/3276): Automatically sets encryption keys for on - install so users don't need to
-- Add a link to MaxCDNs PyroCMS Partnership Page. 
+- Add a link to MaxCDNs NitroCMS Partnership Page. 
 - Fixed: Added check to see if an admin user is attempting to search via ajax in the control panel.
 - Fix double home page bug
 - Fix for pages:url plugin loading and 'executing' the page it links to
@@ -41,7 +41,7 @@
 
 ### Security
 
-- Fixed [#3278](https://github.com/pyrocms/pyrocms/issues/3278): SQL Injection in CodeIgniter used by PyroCMS
+- Fixed [#3278](https://github.com/pyrocms/pyrocms/issues/3278): SQL Injection in CodeIgniter used by NitroCMS
 - Limit the scope of plugin data
 - Clean form inputs if they fail validation
 - Escape Lex tags in user settings
@@ -202,7 +202,7 @@
 - Added Format Plugin.
 - Adding optional entry re-ordering with Streams API in entry listing CP page.
 - Added file_min to asset:js.
-- Adding DB space for IPv6 in PyroCMS tables.
+- Adding DB space for IPv6 in NitroCMS tables.
 - Added Uhoh by Dan Horrigan for Improved errors.
 - Removed password and salt data from the user plugin.
 - Added improved support for .docx/.xlsx/.pptx.
@@ -553,7 +553,7 @@
 * Fixed PHP notices when the navigation plugin is used as a tag pair
 * Fixed a bug where a user with permission to access the Newsletters module and not the Users module, would see a "Manage Users" link in the CP nav bar
 * [Pro] Fixed an issue with the MSM that didn't record the correct migration version when creating a new site
-* [Pro] Removed incorrect line in license that stated you could not remove the PyroCMS logo from PyroCMS Professional
+* [Pro] Removed incorrect line in license that stated you could not remove the NitroCMS logo from NitroCMS Professional
 
 ### For Developers
 

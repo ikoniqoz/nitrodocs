@@ -1,15 +1,15 @@
 # Creating a New Page
 
-At the heart of PyroCMS is the pages module: it's where you can define a structure for your site that you can hand off to clients to edit in an intuitive drag and drop interface.
+At the heart of NitroCMS is the pages module: it's where you can define a structure for your site that you can hand off to clients to edit in an intuitive drag and drop interface.
 
 </div>
 <div class="doc_content">
 
-To get familiar with creating pages in PyroCMS, let's create a new very simple page. After that, we'll set up more complex page type and add a page to it.
+To get familiar with creating pages in NitroCMS, let's create a new very simple page. After that, we'll set up more complex page type and add a page to it.
 
 ## Creating a New Page
 
-To create a new page, go to <samp>Content &rarr; Pages</samp> on your admin panel. You'll see a simple page tree with some of PyroCMS' standard default pages. These are all at the root level, meaning they can be accessed by their <dfn>slugs</dfn>, or short URI names, at the root level of your site.
+To create a new page, go to <samp>Content &rarr; Pages</samp> on your admin panel. You'll see a simple page tree with some of NitroCMS' standard default pages. These are all at the root level, meaning they can be accessed by their <dfn>slugs</dfn>, or short URI names, at the root level of your site.
 
 For our guide, let's add an about page. Click <samp>New Page</samp> at the top right hand corner of your admin panel:
 

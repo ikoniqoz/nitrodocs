@@ -1,6 +1,6 @@
 # Widgets
 
-Widgets are little chunks of code that are each designed to do a very specific thing. You can use them by creating widget "instances" and the and then adding that instance to your template code with PyroCMS tags.
+Widgets are little chunks of code that are each designed to do a very specific thing. You can use them by creating widget "instances" and the and then adding that instance to your template code with NitroCMS tags.
 
 </div>
 <div class="doc_content">
@@ -46,5 +46,5 @@ Once you create an instance, you can use it in your template by specifying the i
 ## Widget Resources
 
 * {{ link title="Core Widget Docs" uri="widgets" }}
-* {{ link title="Developing Widgets - PyroCMS Developer Docs" uri="developers/addons/developing-widgets" }}
-* [Widgets on the PyroCMS Store](https://www.pyrocms.com/store/categories/widgets)
+* {{ link title="Developing Widgets - NitroCMS Developer Docs" uri="developers/addons/developing-widgets" }}
+* [Widgets on the NitroCMS Store](https://www.pyrocms.com/store/categories/widgets)

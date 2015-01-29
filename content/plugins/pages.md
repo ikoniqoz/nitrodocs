@@ -163,7 +163,7 @@ You can also return any custom field variables by using the {{ custom_fields }} 
 
 A tag that allows any one page chunk to be displayed anywhere on the site, even inside another page's content.
 
-<div class="note"><p>Page chunks were discontinued in PyroCMS 2.2, but are still present in installations upgraded from 2.1.x to 2.2.</p></div>
+<div class="note"><p>Page chunks were discontinued in NitroCMS 2.2, but are still present in installations upgraded from 2.1.x to 2.2.</p></div>
 
 ### Attributes
 

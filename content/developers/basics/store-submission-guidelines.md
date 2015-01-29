@@ -16,11 +16,11 @@ To make sure your addon is accepted quickly, please follow the following guideli
 ### Themes
 
 * Should specify which major browsers it has been tested with.
-* The downloadable zip must upload and install without errors via PyroCMS' admin panel.
+* The downloadable zip must upload and install without errors via NitroCMS' admin panel.
 * A live preview is required.
 
 ### Modules
 
-* The downloadable zip must upload and install without errors via PyroCMS' admin panel.
+* The downloadable zip must upload and install without errors via NitroCMS' admin panel.
 
 All good? Alright, head to the <a href="/store/add/details">Add-on Submission</a> page and fill out all of the relevant details.

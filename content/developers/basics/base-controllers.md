@@ -1,6 +1,6 @@
 # Base Controllers
 
-PyroCMS comes with several base controllers to extend that allow you to tap into existing functionality. You can extend the PyroCMS base controllers by extending the controller class in your controllers:
+NitroCMS comes with several base controllers to extend that allow you to tap into existing functionality. You can extend the NitroCMS base controllers by extending the controller class in your controllers:
 
 	class Blog extends Public_Controller
 	{
@@ -42,4 +42,4 @@ Used for all admin controllers. Will do the following:
 * Checks to see if the user has control panel access
 * Sets request to HTTPS if desired
 * Sets the admin theme and loads the necessary paths
-* Sets the template enable_parser option to false. Set this back to true to use PyroCMS tags in your admin views.
+* Sets the template enable_parser option to false. Set this back to true to use NitroCMS tags in your admin views.
