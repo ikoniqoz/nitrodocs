@@ -18,7 +18,8 @@ class Link extends Plugin {
 	 */
 	public function link()
 	{
-		return '<a href="'.site_url($this->get_param('uri')).'">'.$this->get_param('title').'</a>';
-	}	
+		$this->CI = & get_instance();
 
+		return '<a href="'.site_url($this->get_param('uri')).$this->CI->ajax_append_data.'">'.$this->get_param('title').'</a>';
+	}	
 }

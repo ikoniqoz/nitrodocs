@@ -34,7 +34,7 @@ This cache data is saved in **system/cms/cache** and will have a name that match
 
 If you are using a *nix system then you will want to use the following command:</p>
 	
-	sudo rm -rf systems/pyrocms/cache/*_m</pre>
+	sudo rm -rf systems/nitrocms/cache/*_m</pre>
 
 This will remove any cached models. To remove a library, mention the name instead of *_m.</p>
 

@@ -1,5 +1,5 @@
 environments
-pyrocms-folder-structure | NitroCMS Folder Structure
+nitrocms-folder-structure | NitroCMS Folder Structure
 the-control-panel
 pyrocms-tags | NitroCMS Tags
 pyrocms-urls | NitroCMS URLs
