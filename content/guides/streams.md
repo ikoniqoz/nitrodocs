@@ -33,4 +33,4 @@ Since all the core logic of streams is in the community edition, developers can 
 
 ## The Streams Module
 
-The Streams Module allows you to create standalone streams (unlike the streams created in the pages module, for instance, which are tied specifically to pages). It is part of {{ link title="NitroCMS Pro" uri="pro" }} and can also be purchased as [a standalone module](https://www.pyrocms.com/store/details/pyrostreams).
+The Streams Module allows you to create standalone streams (unlike the streams created in the pages module, for instance, which are tied specifically to pages). It is part of {{ link title="NitroCMS Pro" uri="pro" }} and can also be purchased as [a standalone module](https://www.pyrocms.com/store/details/NitroStreams).

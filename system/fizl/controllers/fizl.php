@@ -15,6 +15,20 @@ class Fizl extends CI_Controller {
 
 	public $vars = array();
 
+
+	public function __construct()
+	{
+		parent::__construct();
+		
+		if($this->input->get('ajaxview'))
+		{
+			$this->ajax_append_data  = '?ajaxview=ajaxview';
+		}
+		else
+		{
+			$this->ajax_append_data  = '';
+		}
+	}
 	/**
 	 * Main Fizl Function
 	 *
@@ -25,6 +39,7 @@ class Fizl extends CI_Controller {
 	 */
 	public function _remap()
 	{
+
 		// -------------------------------------
 		// Redirects
 		// -------------------------------------

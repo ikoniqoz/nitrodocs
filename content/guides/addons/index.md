@@ -17,4 +17,4 @@ Add-on development for NitroCMS is a great way to extend the functionality of Ni
 
 ## Add-on Types
 
-{{ nav:auto start="guides/addons" }}
+{{ nav:auto start="guides/addons" depth='3'  }}

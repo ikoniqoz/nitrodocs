@@ -124,6 +124,9 @@ class Nav extends Plugin {
 	{
 		$html = null;
 
+		$ajax_param = $this->CI->ajax_append_data;
+	
+
 		// See if we have an order.txt
 		if(in_array('order.txt', $map)):
 
@@ -133,6 +136,7 @@ class Nav extends Plugin {
 			
 			// chop it up
 			$ord = explode("\n", $order);
+
 		else:
 
 			$order = directory_map(FCPATH.$this->CI->vars['site_folder'].'/'.implode('/', $this->segs), 1);
@@ -165,11 +169,11 @@ class Nav extends Plugin {
 
 			if (in_array($file.'.md', $map))
 			{
-				$html .= '<li><a href="'.site_url(implode('/', $this->segs).'/'.$file).'">'.$name. '</a></li>';
+				$html .= '<li><a href="'.site_url(implode('/', $this->segs).'/'.$file).$ajax_param.'">'.$name. '</a></li>';
 			}
 			elseif (array_key_exists($file, $map))
 			{
-				$html .= '<li><a href="'.site_url(implode('/', $this->segs).'/'.$file).'">'.$name.'</a>';
+				$html .= '<li><a href="'.site_url(implode('/', $this->segs).'/'.$file).$ajax_param.'">'.$name.'</a>';
 
 				$this->depth++;
 				$this->seg_depth++;
@@ -208,7 +212,8 @@ class Nav extends Plugin {
 		$this->CI = get_instance();
 
 		$start = $this->get_param('start');
-		$depth = $this->get_param('depth', 2);
+		//$depth = $this->get_param('depth', 2);
+		$depth = $this->get_param('depth', 3);
 		
 		// We need a start
 		if(!$start) return;
@@ -218,15 +223,21 @@ class Nav extends Plugin {
 				
 		$this->CI->load->helper('directory');
 								
-		$map = directory_map(FCPATH.$this->CI->vars['site_folder'].'/'.implode('/', $this->segs), 3);
+		$map = directory_map(FCPATH.$this->CI->vars['site_folder'].'/'.implode('/', $this->segs), $depth);
 		
 		if(!$map) return;
 
 		return $this->run_level($map);
 	}
 
+
+
+
+
 	function create_ul($tree)
 	{
+		$this->CI = get_instance();
+
 		$this->depth++;
 	
 		$this->html .= '<ul class="unstyled depth_'.$this->depth.'">'."\n";
@@ -258,7 +269,7 @@ class Nav extends Plugin {
 
 	    		$this->stack[] = $this->remove_extension($item);
 	        
-	            $this->html .= "\t".'<li><a href="'.site_url(implode('/', $this->stack)).'">';
+	            $this->html .= "\t".'<li><a href="'.site_url(implode('/', $this->stack)).$this->CI->ajax_append_data.'">';
 	            
 				if(is_numeric($key))
 				{

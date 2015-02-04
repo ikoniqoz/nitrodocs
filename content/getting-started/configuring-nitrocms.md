@@ -29,7 +29,7 @@ In the admin area, go into <samp>Add-ons &rarr; Themes</samp>. There, you'll fin
 
 Select the radio button next to a theme (for example, try changing your theme to <samp>Minimal</samp>, a very basic theme that comes with NitroCMS), click <samp>Save</samp> and your site's entire front-end theme has changed.
 
-NitroCMS is theme-based, so all of your site's assets go into a theme folder (CSS, JS, layouts, etc). Whether you create a custom theme or download one from the [NitroCMS add-ons directory](https://www.pyrocms.com/store), this is where you tell NitroCMS what theme to use.
+NitroCMS is theme-based, so all of your site's assets go into a theme folder (CSS, JS, layouts, etc). Whether you create a custom theme or download one from the [NitroCMS add-ons directory](https://www.nitrocart.net/store), this is where you tell NitroCMS what theme to use.
 
 ## Creating a Custom Theme
 

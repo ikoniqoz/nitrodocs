@@ -6,6 +6,7 @@
  * For the NitroCMS Docs
  *
  * @package		Fizl
+ * @author		Sal Bordonaro - Added goodness
  * @author		Adam Fairholm (@adamfairholm)
  * @copyright	Copyright (c) 2011-2012, Parse19
  * @license		http://parse19.com/fizl/docs/license.html
@@ -15,9 +16,11 @@ class Docs extends Plugin {
 
 	public function id_link($title = null)
 	{
+		$this->CI = & get_instance();
+
 		$title = $title ? $title : $this->get_param('title'); 
 
-		return '<a href="'.current_url().'#'.url_title($title, 'dash', true).'">'.$title.'</a>';
+		return '<a href="'.current_url().$this->CI->ajax_append_data.'#'.url_title($title, 'dash', true).'">'.$title.'</a>';
 	}
 
 	/* If we are doing a one level menu, we can do this...
@@ -28,6 +31,8 @@ class Docs extends Plugin {
 		{{/docs:anchormenu}}
 	*/
 	public function anchormenu() {
+
+		$this->CI = & get_instance();
 
 		if(!$content = trim($this->tag_content)) return;
 
@@ -51,7 +56,7 @@ class Docs extends Plugin {
 	{
 		$title = ($this->tag_content) ? $this->tag_content : $this->get_param('title');
 
-		return '<h2 id="'.url_title($title, 'dash', true).'">'.$title.' <a href="'.current_url().'#top">^</a></h2>';
+		return '<h2 id="'.url_title($title, 'dash', true).'">'.$title.' <a href="'.current_url().$this->CI->ajax_append_data.'#top"'.'>^</a></h2>';
 	}
 
 	public function table()
